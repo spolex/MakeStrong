@@ -1,0 +1,278 @@
+@CHARSET "ISO-8859-1";
+
+{
+	padding: 0;
+	margin: 0;
+}
+body 
+{	
+	margin: 0 auto;
+	width: 1000px;
+	font: 13px/22px Helvetica, Arial, sans-serif;
+	/*background: #f0f0f0;*/
+	background-image: url(brickwall_@2X.png);
+}
+	
+/* Le dice al navegador que dibuje los elementos de HTML 5 como block */
+header, footer, aside, nav, article {
+display: block;
+}
+
+/*Fuente para los títulos*/
+h1,h2,h3,h4,h5,h6{
+    font-family: verdana;
+}
+	
+/*Estilo del encabezamiento*/
+.generalheader{
+	height: 160px;
+	background-image:url(muscle.png);
+	background-color: #81BEF7;
+	top: 0;
+	border-radius: 22px;	
+}
+
+
+header h1{
+	font-size:38px;
+	font-style:italic;
+	color: white;
+	text-align: center;
+	text-transform:uppercase; 
+}
+
+/*Estilo del pie de pagina*/
+footer{
+    clear: both;
+	height: 90px;
+	background-color:#81BEF7;
+    padding-left: 20px;
+    border-radius: 22px;    
+}
+
+footer h3{
+	color:white;
+    text-align: left;
+}
+footer a 
+{
+	display: block; 
+	float: left; 
+	height: 30px;
+	text-decoration: none;
+	padding: 5px 19px 0px 19px;
+	color: white;
+}
+
+footer a:hover{
+	background-image: url(pie_seleccionado.png);
+	background-repeat: repeat-x;
+	color: white;
+}
+
+/* menu de navegacion */
+nav
+{
+	height: 40px;
+	width: 100%;
+	background-image: url(menu.png);
+	background-repeat: repeat-x;    
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+nav input[type="text"], nav input[type="password"]{
+    -moz-border-radius: 5px;
+     border-radius: 5px;
+    height: 18px;
+    margin: 4px;
+    padding: 5px 0px 5px 5px;
+    text-align: center;
+}
+
+nav input[type="text"]:hover, nav input[type="password"]:hover{
+    border-color: #81BEF7;
+}
+
+nav input[type="submit"]{
+    -moz-border-radius: 5px;
+     border-radius: 5px;
+    height: 30px;
+    margin: 4px;
+    text-align: center;
+}
+
+nav input[type="submit"]:hover{
+    border-color:black;
+}
+
+nav a
+{
+	display: block; 
+	float: left; 
+	height: 35px;
+	text-decoration: none; 
+	padding: 5px 19px 0px 19px;
+	text-transform: uppercase;
+	color: white;
+}
+
+nav a:hover{ 
+	background-image: url(menu_marcado.png);
+	background-repeat: repeat-x;
+	color: white;
+}
+/* fin menu navegacion*/
+
+section
+{
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+  background-color: rgba(255,255,255,0.95);
+  width: 73%; 
+  float:left;
+}
+
+section p{
+    margin: 15px;
+}
+
+article
+ {
+  	-moz-border-radius: 2px;
+  	border-radius: 2px;
+  	padding: 5px;
+    margin: 10px;
+    border-left-color: #81BEF7;
+    border-bottom-color: #81BEF7;
+    border-right-color: #81BEF7;
+    border-top-color: #81BEF7;
+    border-style: solid;
+}
+
+aside 
+{
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	padding: 5px;
+	margin: 5px;
+	background-color: rgba(255,255,255,.95);
+	float: left;
+	width: 22%;
+    
+}
+
+aside h3{
+    text-align: center;
+    color: maroon;
+}
+
+aside a 
+{
+	display: block; 
+	height: 100%;
+	text-decoration: none;
+	padding: 6px 0px 5px 15px;
+	
+    color: #81BEF7;
+    font-size:90%;
+}
+
+aside a:hover{
+	background-color: red;
+	color: white;
+    font-weight: bold;
+}
+/* Estilos para formularios con clase=form*/
+.form
+{
+    -moz-border-radius: 5px;
+	border-radius: 5px;
+    
+	 background:#f1f1f1; 
+	 width:470px; 
+	 margin:0 auto;
+	 padding:20px; 
+    
+    border-left-color: #81BEF7;
+    border-bottom-color: #81BEF7;
+    border-right-color: #81BEF7;
+    border-top-color: #81BEF7;
+    border-style: solid;
+    
+    text-align: left;
+}
+.form input[type="text"], .form input[type="email"], .form input[type="password"] {
+    width: 100%;
+}
+
+.tabla{
+    clear: both;
+    -moz-border-radius: 5px;
+	border-radius: 5px;
+	width: 96%;
+    padding: 0px;
+    margin: 10px;
+    
+    border-left-color: #81BEF7;
+    border-bottom-color: #81BEF7;
+    border-right-color: #81BEF7;
+    border-top-color: #81BEF7;
+    border-style: solid;
+    
+    overflow: auto;
+}
+
+.tabla table{
+    margin: 15px;
+    border-collapse: collapse;
+}
+
+.tabla table, .tabla td{
+    border: 1px solid black;
+    text-align: right;
+}
+
+.tabla td{
+    width: 70px;
+    padding: 2px;
+}
+
+.tabla input{
+    width: 80px
+}
+
+.parametros{
+    -moz-border-radius: 5px;
+	border-radius: 5px;
+	float: left;
+	width: 50%;
+    padding: 10px;
+    margin: 10px;
+    
+    border-left-color: #81BEF7;
+    border-bottom-color: #81BEF7;
+    border-right-color: #81BEF7;
+    border-top-color: #81BEF7;
+    border-style: solid;
+}
+
+.error{
+    clear: both;
+    -moz-border-radius: 5px;
+	border-radius: 5px;
+	width: 90%;
+    padding: 10px;
+    margin: 10px;
+    Background-color: rgba(255,0,0,.3);
+    
+    border-left-color: #81BEF7;
+    border-bottom-color: #81BEF7;
+    border-right-color: #81BEF7;
+    border-top-color: #81BEF7;
+    border-style: solid;
+    
+    text-align: center;
+}

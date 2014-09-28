@@ -1,0 +1,30 @@
+<%@ page import="packEstructuraPag.*" %>
+<!DOCTYPE html>
+<html>
+<% 
+	//Se imprime la cabecera de la página
+	//TODO: poner título
+	out.println(Secciones.getSecciones().generarCabecera("Error 404"));
+%>
+<body>
+
+<%
+	//Se imprime la barra de título
+	out.println(Secciones.getSecciones().generarTitulo());
+	//Se imprime la barra de menús
+	out.println(Secciones.getSecciones().generarBarraMenu(session));
+%>
+
+<section>
+<!-- Se escribe la sección correspondiente a esta página -->
+	
+</section>
+
+<%
+	//Se imprime el lateral
+	out.println(Secciones.getSecciones().generarLateral());
+	//Se imprime el pie de página
+	out.println(Secciones.getSecciones().generarPie());
+%>
+</body>
+</html>

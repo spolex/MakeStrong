@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  
+  <!-- Definición y mapeado de servlets -->
+  
+  <!-- Servlets de gestión de usuarios -->
+	<servlet>
+		<servlet-name>ServletIdentificacion</servlet-name>
+		<servlet-class>packGestionUsuarios.ServletIdentificacion</servlet-class>
+	</servlet>
+	<servlet-mapping>
+    	<servlet-name>ServletIdentificacion</servlet-name>
+    	<url-pattern>/Identificacion</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ServletRegistro</servlet-name>
+		<servlet-class>packGestionUsuarios.ServletRegistro</servlet-class>
+	</servlet>
+	<servlet-mapping>
+    	<servlet-name>ServletRegistro</servlet-name>
+    	<url-pattern>/Registro</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ServletInicioUsuario</servlet-name>
+		<servlet-class>packGestionUsuarios.ServletInicioUsuario</servlet-class>
+	</servlet>
+	<servlet-mapping>
+    	<servlet-name>ServletInicioUsuario</servlet-name>
+    	<url-pattern>/InicioUsuario</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ServletCambioDatosUsuario</servlet-name>
+		<servlet-class>packGestionUsuarios.ServletCambioDatosUsuario</servlet-class>
+	</servlet>
+	<servlet-mapping>
+    	<servlet-name>ServletCambioDatosUsuario</servlet-name>
+    	<url-pattern>/CambioDatosUsuario</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+    	<servlet-name>ServletDesLogin</servlet-name>
+    	<servlet-class>packGestionUsuarios.ServletDesLogin</servlet-class>
+	</servlet>
+ 	<servlet-mapping>
+    	<servlet-name>ServletDesLogin</servlet-name>
+    	<url-pattern>/DesLogin</url-pattern>
+  	</servlet-mapping>
+  
+	
+	<!-- Servlets de la aplicación MRP -->
+	<servlet>
+		<servlet-name>ServletInicio</servlet-name>
+		<servlet-class>mrp.packServlets.ServletInicio</servlet-class>
+	</servlet>
+	<servlet-mapping>
+    	<servlet-name>ServletInicio</servlet-name>
+    	<url-pattern>/MRP/Inicio</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ServletEstado</servlet-name>
+		<servlet-class>mrp.packServlets.ServletEstado</servlet-class>
+	</servlet>
+	<servlet-mapping>
+    	<servlet-name>ServletEstado</servlet-name>
+    	<url-pattern>/MRP/Estado</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	    <servlet-name>ServletAnadirTabla</servlet-name>
+	    <servlet-class>mrp.packServlets.ServletAnadirTabla</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	    <servlet-name>ServletAnadirTabla</servlet-name>
+	    <url-pattern>/MRP/AnadirTabla</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ServletObtenerEjercicio</servlet-name>
+		<servlet-class>mrp.packServlets.ServletObtenerEjercicio</servlet-class>
+	</servlet>
+	<servlet-mapping>
+    	<servlet-name>ServletObtenerEjercicio</servlet-name>
+    	<url-pattern>/MRP/ObtenerEjercicio</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ServletGuardarProgreso</servlet-name>
+		<servlet-class>mrp.packServlets.ServletGuardarProgreso</servlet-class>
+	</servlet>
+	<servlet-mapping>
+    	<servlet-name>ServletGuardarProgreso</servlet-name>
+    	<url-pattern>/MRP/GuardarProgreso</url-pattern>
+	</servlet-mapping>
+	
+	<!-- Servlets de la aplicación ROC -->
+	<servlet>
+		<servlet-name>ServletInicioROC</servlet-name>
+		<servlet-class>roc.packServlets.ServletInicio</servlet-class>
+	</servlet>
+	<servlet-mapping>
+    	<servlet-name>ServletInicioROC</servlet-name>
+    	<url-pattern>/ROC/Inicio</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ServletDatos</servlet-name>
+		<servlet-class>roc.packServlets.ServletDatos</servlet-class>
+	</servlet>
+	<servlet-mapping>
+    	<servlet-name>ServletDatos</servlet-name>
+    	<url-pattern>/ROC/Datos</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ServletResultado</servlet-name>
+		<servlet-class>roc.packServlets.ServletResultado</servlet-class>
+	</servlet>
+	<servlet-mapping>
+    	<servlet-name>ServletResultado</servlet-name>
+    	<url-pattern>/ROC/Resultado</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ServletGuardarEjercicio</servlet-name>
+		<servlet-class>roc.packServlets.ServletGuardarEjercicio</servlet-class>
+	</servlet>
+	<servlet-mapping>
+    	<servlet-name>ServletGuardarEjercicio</servlet-name>
+    	<url-pattern>/ROC/GuardarEjercicio</url-pattern>
+	</servlet-mapping>
+	
+	<!-- Servlets de administración -->
+	
+	<servlet>
+		<servlet-name>ServletAnadirRecurso</servlet-name>
+		<servlet-class>roc.packServlets.ServletAnadirRecurso</servlet-class>
+	</servlet>
+	<servlet-mapping>
+    	<servlet-name>ServletAnadirRecurso</servlet-name>
+    	<url-pattern>/AnadirRecurso</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ServletEliminarRecurso</servlet-name>
+		<servlet-class>roc.packServlets.ServletEliminarRecurso</servlet-class>
+	</servlet>
+	<servlet-mapping>
+    	<servlet-name>ServletEliminarRecurso</servlet-name>
+    	<url-pattern>/EliminarRecurso</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ServletEliminarUsuario</servlet-name>
+		<servlet-class>roc.packServlets.ServletEliminarUsuario</servlet-class>
+	</servlet>
+	<servlet-mapping>
+    	<servlet-name>ServletEliminarUsuario</servlet-name>
+    	<url-pattern>/EliminarUsuario</url-pattern>
+	</servlet-mapping>
+	
+  
+	<!-- Configuración de la sesión -->
+	<session-config>
+	    <session-timeout>480</session-timeout>
+	</session-config>
+	  
+	<!-- Páginas de error -->
+	<error-page>
+	    <error-code>404</error-code>
+	    <location>/error/404error.jsp</location>
+	</error-page>
+	
+	<!-- Página de inicio del contenedor -->
+	<welcome-file-list>
+        <welcome-file>general/Inicio.jsp</welcome-file>
+    </welcome-file-list>
+    
+    <!-- Definiciond de filtros y objetos a los que se aplica -->
+    
+    <!-- Filtro para usuarios registrados, impide el acceso a visitantes -->
+    <filter>
+		<filter-name>FiltroUsuarioRegistrado</filter-name>
+		<filter-class>packFiltros.FiltroUsuarioRegistrado</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>FiltroUsuarioRegistrado</filter-name>
+		<url-pattern>/general/RecursosRestringidos/*</url-pattern>
+	</filter-mapping>
+	
+	<!-- Filtro para propietarios, solo permite acceder al usuario propietario -->
+    <filter>
+		<filter-name>FiltroPropietario</filter-name>
+		<filter-class>packFiltros.FiltroPropietario</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>FiltroPropietario</filter-name>
+		<url-pattern>/usuarios/*</url-pattern>
+	</filter-mapping>
+	
+	<!-- Filtro para restringir el acceso al administrador -->
+    <filter>
+		<filter-name>FiltroAdmin</filter-name>
+		<filter-class>packFiltros.FiltroAdmin</filter-class>
+	</filter>
+	<filter-mapping>
+   	 	<filter-name>FiltroAdmin</filter-name>
+    	<url-pattern>/general/Admin.jsp</url-pattern>
+  	</filter-mapping>
+	
+	<!-- Filtro para restringir el acceso a las aplicaciones si no se estaban usando -->
+	<filter>
+	    <filter-name>FiltroROCIniciado</filter-name>
+	    <filter-class>packFiltros.FiltroROCIniciado</filter-class>
+	</filter>
+	<filter-mapping>
+	    <filter-name>FiltroROCIniciado</filter-name>
+	    <url-pattern>/ROC/*</url-pattern>
+	</filter-mapping>
+	<filter>
+	    <filter-name>FiltroMRPIniciado</filter-name>
+	    <filter-class>packFiltros.FiltroMRPIniciado</filter-class>
+	</filter>
+	<filter-mapping>
+	    <filter-name>FiltroMRPIniciado</filter-name>
+	    <url-pattern>/MRP/*</url-pattern>
+	</filter-mapping>
+	
+</web-app>

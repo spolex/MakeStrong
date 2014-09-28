@@ -1,0 +1,51 @@
+@CHARSET "ISO-8859-1";
+.centropagina {
+	border-width:0.5cm;
+	border-color: FireBrick;
+	border-style: double;
+	text-align:center;
+	font-family:Book Antiqua;
+	}
+
+.centropagina p {
+	text-indent: 3em;
+	white-space: pre-line;
+	line-height: 1.5em;
+	}
+
+.centropagina h1 {
+
+	font-family: Book Antiqua;
+	font-size:4em;
+	color:red;
+	font-weight: bold;
+}
+
+.centropagina h2 {
+	text-align: center; 
+	font-family: Book Antiqua;
+	font-size: 3em;
+	color: red;
+	font-weight: bold;
+}
+
+.centropagina h3 {
+	text-align:center; 
+	font-family: Book Antiqua;
+	font-size:2em;
+	color:red;
+	font-weight: bold;
+}
+
+.centropagina table
+{
+	width: 90%;
+	position: center;
+	font-style: italic;
+	border-width:0.5cm;
+	border-color: red;
+	border-style: double;
+	text-align: center;
+	margin: 0 auto;
+	border-collapse: collapse;
+}

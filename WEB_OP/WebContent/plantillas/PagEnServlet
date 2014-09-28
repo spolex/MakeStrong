@@ -1,0 +1,29 @@
+// Le decimos al navegador que lo que vamos a devolver es un HTML
+response.setContentType("text/html");
+PrintWriter out = response.getWriter();
+
+out.println("<html>");
+		 
+//Se imprime la cabecera de la página
+//TODO: Poner título
+out.println(Secciones.getSecciones().generarCabecera("Error 404"));
+			
+out.println("<body>");
+
+//Se imprime la barra de título
+out.println(Secciones.getSecciones().generarTitulo(""));
+//Se imprime la barra de menús
+out.println(Secciones.getSecciones().generarBarraMenu(request.getSession()));
+
+out.println("<section>");
+// Se escribe la sección correspondiente a esta página -->
+			
+out.println("</section>");
+
+//Se imprime el lateral
+out.println(Secciones.getSecciones().generarLateral());
+//Se imprime el pie de página
+out.println(Secciones.getSecciones().generarPie());
+
+out.println("</body>");
+out.println("</html>");
