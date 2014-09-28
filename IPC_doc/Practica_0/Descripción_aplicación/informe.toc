@@ -1,0 +1,6 @@
+\select@language {spanish}
+\contentsline {section}{\numberline {1}Descripci\IeC {\'o}n de la aplicaci\IeC {\'o}n}{1}{section.1}
+\contentsline {subsection}{\numberline {1.1}P\IeC {\'u}blico objetivo}{1}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Objetivos de la aplicaci\IeC {\'o}n}{1}{subsection.1.2}
+\contentsline {section}{\numberline {2}Test del prototipo}{1}{section.2}
+\contentsline {subsection}{\numberline {2.1}Patrones de error detectados}{1}{subsection.2.1}

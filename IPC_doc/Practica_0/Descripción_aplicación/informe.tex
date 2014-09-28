@@ -1,0 +1,92 @@
+\documentclass[a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{graphicx}
+\usepackage[left=2.5cm,right=2.5cm,top=3cm,bottom=3cm]{geometry}
+\usepackage{eurosym}
+\usepackage{fancyhdr}%encabezado y pie de página
+\usepackage[colorlinks=true, linkcolor=black, urlcolor=blue]{hyperref}
+\setcounter{secnumdepth}{5}
+\usepackage[spanish]{babel}
+\setcounter{tocdepth}{5}
+\usepackage{colortbl}%para colorear tablas
+\usepackage{tabularx}
+\usepackage{placeins}%para poner barrera y no pasen de secciones los elemntos flotantes
+
+
+%para el mapa mental
+\usepackage{tikz}
+\usetikzlibrary{mindmap,trees}
+\usepackage{verbatim}
+
+
+\date{}
+\author{D. Ramirez Ambrosi \\ J. I. Sánchez Méndez \\ J. Rodríguez Azpeleta}
+\title{\begin{center}
+\textbf{\Huge{Make Yourself Strong}} \\ Descripción de la aplicación \\ Fase de prototipado \\Proyecto de la asignatura Interacción Persona Computador
+\end{center}}
+\date{\today}
+
+
+\pagestyle{fancy}
+\rhead{
+\textbf{Make Yourself Strong} \hfill \textbf{Fecha:} \date{\today}
+}
+
+\lhead{}
+
+%Separación entre párrafos
+\setlength{\parskip}{3mm}
+
+%colores
+\definecolor{azul}{RGB}{0,240,255}%color para la barra de titulo
+\definecolor{amarillo}{RGB}{255,240,0}%color para características
+\renewcommand\listfigurename{\centering LISTA DE FIGURAS}
+
+\begin{document}
+\maketitle
+
+\thispagestyle{empty}%para evitar enumeración de la página de la portada y del índice
+\newpage
+\tableofcontents%índice
+\thispagestyle{empty}
+\newpage
+
+
+
+%lista de figuras 
+%\renewcommand\listfigurename{\centering LISTA DE FIGURAS}
+%\listoffigures
+%\clearpage
+
+%Lista de tablas
+%\renewcommand{\listtablename}{\centering ÍNDICE DE TABLAS} %Para cambiar el índice de las tablas
+%\listoftables
+%\thispagestyle{empty}
+%\newpage
+
+\setcounter{page}{1}%Para reinizar el contador de páginas en la página deseada
+
+\section{Descripción de la aplicación}
+
+\subsection{Público objetivo}
+
+\subsection{Objetivos de la aplicación}
+
+\begin{itemize}
+	\item	Visualización de \textbf{noticias}. Visualización en lista ordenada de forma cronológica (más recientes primero), ¿con posibiidad de buscar?. Posibilidad de comentar una noticia o compartirla en redes ssociales.
+	
+	\item	Incorporación de una \textbf{Wiki de consulta} con diversos contenidos: rutinas de entrenamiento, nutrición, consejos...
+	
+	\item	Ofrecer una \textbf{tienda virtual} para la venta de suplementos.
+	
+	\item	Ofrecer un servicio de \textbf{entrenador virtual} que ayude al usuario de forma personal.
+\end{itemize}
+
+\section{Test del prototipo}
+
+\subsection{Patrones de error detectados}
+
+
+\end{document}
