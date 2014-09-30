@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2014.2.3)  25 SEP 2014 16:49
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2014.2.3)  30 SEP 2014 16:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -942,28 +942,28 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 \openout5 = `informe.toc'.
 
  [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 92.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 100.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.92 \end{document}
-                    [1]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 92.
+l.100 \end{document}
+                     [1]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 100.
  (./informe.aux
 LaTeX Info: Redefining \. on input line 21.
 LaTeX Info: Redefining \% on input line 21.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 92.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 92.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 100.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 100.
 Package rerunfilecheck Info: File `informe.out' has not changed.
 (rerunfilecheck)             Checksum: F80B5BC9FB698E61BA8611F379E75EF1;345.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 92.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 100.
  ) 
 Here is how much of TeX's memory you used:
  15540 strings out of 495062
  275550 string characters out of 3182745
- 347118 words of memory out of 3000000
+ 348118 words of memory out of 3000000
  18394 multiletter control sequences out of 15000+200000
  53204 words of font info for 43 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -973,7 +973,7 @@ nts/type1/public/lm/lmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmb
 x12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texm
 f-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/publi
 c/lm/lmr17.pfb>
-Output written on informe.pdf (3 pages, 134785 bytes).
+Output written on informe.pdf (3 pages, 135735 bytes).
 PDF statistics:
  73 PDF objects out of 1000 (max. 8388607)
  62 compressed objects within 1 object stream
