@@ -13,6 +13,9 @@
 \usepackage{colortbl}%para colorear tablas
 \usepackage{tabularx}
 \usepackage{placeins}%para poner barrera y no pasen de secciones los elemntos flotantes
+%\usepackage{wasysym} %para poner símbolos
+\usepackage{bbding} %para poner símbolos
+
 
 
 %para el mapa mental
@@ -40,8 +43,8 @@
 \setlength{\parskip}{3mm}
 
 %colores
-\definecolor{azul}{RGB}{0,240,255}%color para la barra de titulo
-\definecolor{amarillo}{RGB}{255,240,0}%color para características
+\definecolor{verde}{RGB}{127,255,0}%color para la barra de titulo
+\definecolor{rojo}{RGB}{255,0,0}%color para características
 \renewcommand\listfigurename{\centering LISTA DE FIGURAS}
 
 \begin{document}
@@ -70,7 +73,7 @@
 
 \section{Descripción de la aplicación}
 
-Inicialmente Make Yourself Strong es una aplicación mostrada como una página web accesible desde cualquier navegador. Posteriormente se baraja la posibilidad de ofrecer una aplicación móvil que facilite el acceso a la misma desde terminales móviles.
+Inicialmente \textbf{Make Yourself Strong} es una aplicación mostrada como una \textbf{página web} accesible desde cualquier navegador. Posteriormente se baraja la posibilidad de ofrecer una aplicación móvil que facilite el acceso a la misma desde terminales móviles.
 
 \subsection{Público objetivo}
 Esta aplicación va dirigida a todo aquel que quiera adquirir una base para poder aumentar de forma progresiva la fuerza. Con ella se pretende abarcar la segmentación de usuarios que:
@@ -84,17 +87,17 @@ Esta aplicación va dirigida a todo aquel que quiera adquirir una base para pode
 \subsection{Objetivos de la aplicación}
 
 \begin{itemize}
-	\item	Visualización de \textbf{noticias}. Visualización en lista ordenada de forma cronológica (más recientes primero). Posibilidad de comentar una noticia o compartirla en redes ssociales.
+	\item	Visualización de \textbf{noticias}. Visualización en lista ordenada de forma cronológica (más recientes primero). Posibilidad de comentar una noticia o compartirla en redes sociales.
 	
-	\item	Incorporación de una \textbf{Wiki de consulta} con diversos contenidos: rutinas de entrenamiento, nutrición, consejos...
-	
-	\item	Ofrecer una \textbf{tienda virtual} para la venta de suplementos.
+	\item	Incorporación de \textbf{páginas de consulta} con diversos contenidos: rutinas de entrenamiento, nutrición, consejos...
 	
 	\item	Gestionar distintos perfiles de usuarios. La funcionalidad ofrecida será distinta según el tipo de perfil usado. Se pueden distirguir los perfiles: administrador, entrenador, usuario estándar y usuario premium.
 	
 	\item	Ofrecer un servicio de \textbf{entrenador virtual} que ayude al usuario de forma personal. El servicio será colaborativo, los usuarios con perfil entrenador guiarán a los usuarios premium que lo soliciten.
 	
-	\item	Permitir la búsqueda de los gimnasios más próximos al usuario en base al código postal.
+	\item	Facilitar la progresión y el seguimiento de los objetivos del usuario mediante \textbf{herramientas de registro} de estado físico y almacenamiento de entrenamientos realizados. Así mismo, se podrá consultar la información propia almacenada, \textbf{historial}, y el progreso mediante gráficos.
+	
+	\item	Permitir la \textbf{búsqueda de los gimnasios y tiendas} de nutrición más próximos al usuario en base al código postal.
 \end{itemize}
 
 En resumen facilitar el acceso gratuito a recursos generales de orientación y permitir la consulta a expertos en nutrición y preparación física de forma personalizadaa para cada usuario.
@@ -103,19 +106,42 @@ En resumen facilitar el acceso gratuito a recursos generales de orientación y p
 
 %Tabla 
 
---Usuarios: no registrado, estandar, premium, entrenador, administrador
-
-Consultar noticias
-Comentar noticias
-Añadir noticias
-Consultar entrenamientos
-Consultas de entrenamientos personalizados
-Aconsejar entrenamientos
-Visitar la tienda
-Comprar en la tienda
-Opinar sobre productos
 
 
+\begin{center}
+ 
+\begin{tabularx}{14cm}{|X||c|c|c|c|c|}
+\hline
+\textbf{Funcionalidad} & No registrado & Estándar & Premium & Entrenador & Administrador\\
+\hline
+Consultar noticias & \textcolor{verde}{\Checkmark}	& \textcolor{verde}{\Checkmark}	& \textcolor{verde}{\Checkmark}	& \textcolor{verde}{\Checkmark}	& \textcolor{verde}{\Checkmark}	\\
+\hline
+Comentar noticias & \textcolor{red}{\XSolidBrush}	& \textcolor{verde}{\Checkmark}	& \textcolor{verde}{\Checkmark}	& \textcolor{verde}{\Checkmark}	& \textcolor{verde}{\Checkmark}	\\
+\hline
+Añadir noticias & \textcolor{red}{\XSolidBrush}	& \textcolor{verde}{\Checkmark}	& \textcolor{verde}{\Checkmark}	& \textcolor{verde}{\Checkmark}	&  \textcolor{verde}{\Checkmark}	\\
+\hline
+Consultar gimnasios y tiendas cercanas & \textcolor{verde}{\Checkmark}	& \textcolor{verde}{\Checkmark}	& \textcolor{verde}{\Checkmark}	& \textcolor{verde}{\Checkmark}	& \textcolor{verde}{\Checkmark}	\\
+\hline
+Consultar entrenamientos & \textcolor{red}{\XSolidBrush}	& \textcolor{verde}{\Checkmark}	& \textcolor{verde}{\Checkmark}	& \textcolor{verde}{\Checkmark}	& \textcolor{verde}{\Checkmark}	\\
+\hline
+Consultas de entrenamientos personalizados  & \textcolor{red}{\XSolidBrush}	& \textcolor{red}{\XSolidBrush}	& \textcolor{verde}{\Checkmark}	& \textcolor{verde}{\Checkmark}	& \textcolor{verde}{\Checkmark}	\\
+\hline
+Preguntar a expertos & \textcolor{red}{\XSolidBrush}	& \textcolor{red}{\XSolidBrush}	& \textcolor{verde}{\Checkmark}	& 	& 	\\
+\hline
+Aconsejar entrenamientos & \textcolor{red}{\XSolidBrush}	& \textcolor{red}{\XSolidBrush}	& \textcolor{red}{\XSolidBrush}	& \textcolor{verde}{\Checkmark}	&	\\
+\hline
+Mantener histórico de entrenamientos & \textcolor{red}{\XSolidBrush}	& \textcolor{verde}{\Checkmark}	& \textcolor{verde}{\Checkmark}	& \textcolor{verde}{\Checkmark}	& \textcolor{verde}{\Checkmark}	\\
+\hline
+Ver estadísticas y progreso  & \textcolor{red}{\XSolidBrush}	& \textcolor{red}{\XSolidBrush}	& \textcolor{verde}{\Checkmark}	& \textcolor{verde}{\Checkmark}	& \textcolor{verde}{\Checkmark}	\\
+\hline
+Dar de alta entrenadores  & 	&	&	&	& \textcolor{verde}{\Checkmark}	\\
+\hline
+Administrar usuarios  &	&	&	&	& \textcolor{verde}{\Checkmark}	\\
+\hline
+
+\end{tabularx}
+
+\end{center}
 
 \section{Test del prototipo}
 
