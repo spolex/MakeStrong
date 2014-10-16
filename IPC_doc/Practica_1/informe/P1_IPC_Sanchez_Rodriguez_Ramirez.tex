@@ -1,0 +1,95 @@
+\documentclass[a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{graphicx}
+\usepackage[left=2.5cm,right=2.5cm,top=3cm,bottom=3cm]{geometry}
+\usepackage{eurosym}
+\usepackage{fancyhdr}%encabezado y pie de página
+\usepackage[colorlinks=true, linkcolor=black, urlcolor=blue]{hyperref}
+\setcounter{secnumdepth}{5}
+\usepackage[spanish]{babel}
+\setcounter{tocdepth}{5}
+\usepackage{colortbl}%para colorear tablas
+\usepackage{tabularx}
+\usepackage{placeins}%para poner barrera y no pasen de secciones los elemntos flotantes
+%\usepackage{wasysym} %para poner símbolos
+\usepackage{bbding} %para poner símbolos
+
+
+
+%para el mapa mental
+\usepackage{tikz}
+\usetikzlibrary{mindmap,trees}
+\usepackage{verbatim}
+
+
+\date{}
+\author{D. Ramirez Ambrosi \\ J. I. Sánchez Méndez \\ J. Rodríguez Azpeleta}
+\title{\begin{center}
+\textbf{\Huge{Make Yourself Strong}} \\ Análisis de necesidades  \\Proyecto de la asignatura Interacción Persona Computador \\ \Huge{Grupo 10}
+\end{center}}
+\date{\today}
+
+
+\pagestyle{fancy}
+\rhead{
+\textbf{Make Yourself Strong} \hfill \textbf{Fecha:} \date{\today}
+}
+
+\lhead{}
+
+%Separación entre párrafos
+\setlength{\parskip}{3mm}
+
+%colores
+\definecolor{verde}{RGB}{127,255,0}%color para la barra de titulo
+\definecolor{rojo}{RGB}{255,0,0}%color para características
+\renewcommand\listfigurename{\centering LISTA DE FIGURAS}
+
+\begin{document}
+\maketitle
+
+\thispagestyle{empty}%para evitar enumeración de la página de la portada y del índice
+\newpage
+\tableofcontents%índice
+\thispagestyle{empty}
+\newpage
+
+
+
+%lista de figuras 
+%\renewcommand\listfigurename{\centering LISTA DE FIGURAS}
+%\listoffigures
+%\clearpage
+
+%Lista de tablas
+%\renewcommand{\listtablename}{\centering ÍNDICE DE TABLAS} %Para cambiar el índice de las tablas
+%\listoftables
+%\thispagestyle{empty}
+%\newpage
+
+\setcounter{page}{1}%Para reinizar el contador de páginas en la página deseada
+
+
+\section{Introducción}
+
+La prueba está basada en el uso de la aplicación \textbf{MyFitnessPAL} \footnote{\url{http://www.myfitnesspal.com.mx}}. Esta aplicación está centrada en la cuenta de calorías de un usuario. En base a parámetros - como la altura, peso y nivel de actividad física - y objetivos - como mantener o variar el peso - muestra una estimación de las calorías que el usuario debe consumir al día así como la cantidad de macronutrientes (hidratos de carbono, grasas y proteínas) que debe consumir para alcanzar los objetivos deseados.
+
+Los usuarios pueden realizar el seguimiento calórico mediante el registro de los alimentos consumidos mediante búsquedas en la base de datos propia. También tienen la posibilidad de añadir un alimento en caso de no encontrarlo en dicha base de datos.
+
+También tienen la posibilidad de registrar las calorías consumidas por ejercio físico. Como en el caso anterior, se puede buscar el ejercicio en la base de datos o añadirlo en caso de que no se encuentre.
+
+Los usuarios pueden realizar su propio seguimiento mediante la consulta de estadísticas gráficas.
+
+\section{Observación de participantes}
+
+	\subsection{Jonathan Castro}
+	
+	
+
+\section{Necesidades identificadas}
+
+
+
+\end{document}
