@@ -272,7 +272,7 @@ Los usuarios pueden realizar su propio seguimiento mediante la consulta de estad
 
 A continuación se detallan las diferentes necesidades detectadas en las diferentes observaciones.
 
-	\subsection{Descripciones de elementos}
+	\subsection{Exactitud en las descripciones de elementos}
 	
 	Las descripciones que se asocien a diferentes elementos de una lista de opciones tienen que ser lo suficientemente claras para que el usuario no tenga ninguna duda de cuál es la que le conviene marcar.
 	
@@ -285,6 +285,8 @@ A continuación se detallan las diferentes necesidades detectadas en las diferen
 	\subsection{Localización del usuario}
 	
 	En el caso del calendario, su formato era inglés. De cara a ofrecer un mejor servicio, se debería adaptar el calendario o incluso las unidades de medida al sistema utilizado en el lugar desde el que el usuario realiza la conexión.
+	
+	Otro problema estaba relacionado con la traducción. Ésta deberá estar lo más cuidada posible para que no se produzcan problemas o mal entendidos a usuarios de diferente habla.
 	
 	\subsection{Iconos representativos}
 	
@@ -302,6 +304,89 @@ A continuación se detallan las diferentes necesidades detectadas en las diferen
 	
 	Hacer que sean perfectamente visibles para que el usuario encuentre fácilmente, por ejemplo, el cierre de sesión.
 
-
+	\subsection{Asegurar la privacidad de los datos}
+	
+	Se debe garantizar que los datos de los usuarios serán seguros ante cualquier ataque y que los mismos no serán accesibles. Se trata de garantizar que datos personales como la información de contacto (correo electrónico), información de localización (como el código postal) o símplemente el peso registrado del usuario no serán accedidos por terceras personas a no ser que el usuario lo permita.
+	
+	\subsection{Registro de datos no necesarios}
+	
+	Se ha dado el caso de pedir el código postal o fecha exacta de nacimiento del usuario a la hora de realizar el registro. Sería más adecuado que los usuarios tuvieran la posibilidad de elegir si introducirlos o no en el sistema. La aplicación no tiene necesidad de saber en qué área vive el usuario o el día y mes de nacimiento cuando, para el cálculo de las estimaciones, es suficiente con el año de nacimiento.
+	
+	\subsection{Uso de lenguaje específico}
+	
+	El vocabulario a utilizar debe ser específico del área en que se desarrolla la aplicación. Ya se han mostrado el ejemplo de ``rutina'' usado en lugar de ``días'' o ``sesión'' que encajarían mejor en el contexto en que se producía confusión.
+	
+	Otro caso ambiguo se encontraba en la página principal donde el botón ``Añadir'' se refería a añadir un entrenamiento.
+	
+	\subsection{Feedback y ayuda al usuario}
+	
+	Sobre todo para usuarios que utilizan una aplicación de este tipo por primera vez y no están familiarizados con los términos o la forma, correcta o no, de añadir entradas de ejercicios o comida, resulta muy importante que se le informe de cómo se desarrolla el proceso. Además, también hay que considerar informar al usuario sobre cómo desarrolla actividad, animarle.  A continuación repasamos varios ejemplos, estando los que hemos encontrado y han sido positivos, y los que se han echado en falta:
+	
+		\begin{itemize}
+		\item	Tras terminar la pantalla de registro, se muestran los objetivos del usuario. Es una información muy útil y muy bien resumida y presentada. USuarios con conocimiento en la materia que nos incunbe no tendrán problema en su interpretación, pero se debería ofrecer una opción que explique a usuarios principiantes lo que significan los diferentes elementos.
+		
+		\item	El uso de mensajes motivadores, concretamente al establecer los alimentos consumidos en el día y calcular el consumo calórico, animando al usuario a seguir así resulta agradable.
+		
+		\item	También el caso opuesto, estar muy por debajo o por encima del consumo calórico hace que la aplicación avise de tal hecho e indica al usuario los errores que tiene que corregir.
+		
+		\item	En el caso de añadir ejercicios a un entrenamiento, el programa distingue entre ejercicios de fuerza y cardiovasculares. Para un usuario sin experiencia seería necesario ofrecer una explicación de lo que es cada tipo de ejercicio y qué propósitos tiene.
+		\end{itemize}
+	
+	\subsection{Facilitar tareas al usuario}
+	
+	Hacer las operaciones lo más fáciles posibles al usuario, intentando minimizar la repecición de acciones excatas. En esta línea, en la aplicación se han observado las herramientas rápidas para copiar el entrenamiento realizado o los alimentos consumidos de una fecha concreta a otra, de forma que si la entrada va a ser exáctamente la misma o muy parecida no haya que empezar a, por ejemplo, añadir todos los ejercicios desde cero.
+	
+	Otra herramienta de utilidad ha sido la posibilidad de obtener una vista de impresión del entrenamiento, de forma que el formato se adecúe a las características del papel y el usuario pueda obtener fácilmente una copia física de los datos del entrenamiento.
+	
+	También hay que tener en cuenta la posibilidad de acceder a un resumen de los objetivos propuestos para el usuario.
+	
+	Hacer que cuadros de entrada de texto sean directamente editables sin necesidad de tener que pulsar un botón concreto para su edición, ya que la primera es la opción más natural.
+	
+	\subsection{Opciones por defecto}
+	
+	Por ejemplo, en el formulario de registro se ofrece la posibilidad de recibir automáticamente un boletín de noticias al correo proporcionado. Esta opción viene marcada por defecto en el formulario y puede resultar un tanto molesta si no se desactiva.
+	
+	Aunque no se ha tratado en las observaciones, en el formulario de incio de sesión también aparece marcada la casilla para recordar al usuario la próxima vez que vuelva a la página. Esta casilla aparece marcada por defecto y, si al usuario no le interesa, hay que desactivarla cada vez que se hace el login. Puede resultar perjudicial para el usuario en caso que acceda desde un ordenador ajeno.
+	
+	\subsection{Comprobación de errores}
+	
+	En el caso del registro, la contraseña se pide solo una vez, pero si el usuario la escribe mal, luego no podrá acceder. Es necesario pedir confirmación de la contraseña para evitar este tipo de problema.
+	
+	\subsection{Restringir opciones}
+	
+	Se deben utilizar para evitar contradicciones. En el caso de la definición de objetivos, el especificar un peso objetivo por debajo del actual, debería eliminar las opciones de ganar peso del desplegable concreto de los objetivos. De la misma forma se debería cumplir la inversa, con un peso objetivo por encima del actual y el caso de mantener el peso actual si los pesos objetivo y actual son iguales.
+	
+	\subsection{Búquedas adecuadas a diferentes tipos de usuario}
+	
+	Se han dado dos casos opuestos, problemas por carencia de resultados y problemas por exceso de los mismos.
+	
+	Por defecto, en el caso de la búsqueda de ejercicios donde los nombres de los ejercicios resultaban muy específicos. Debería guardarse por cada ejercicio nombres más comunes que permitan realizar búsquedas más abiertas.
+	
+	En el caso de alimentos el exceso se debe a que una palabra de búsqueda puede dar lugar a muchos tipos de alimentos, al mismo alimento en muchas marcas diferentes o incluso a varias entradas de exactamente el mismo alimento (aunque con un ligero cambio de nombre). En este caso habría que limitar de alguna manera la búsqueda, aunque en este tema ha habido diferencias de opinión entre los diferentes participantes de la prueba.
+	
+	\subsection{Coherencia en el diseño de la aplicación}
+	
+	La página debe utilizar los mismos elementos en sus diferentes vistas. De este modo se ha observado que en la pantalla principal las opciones para acceder a las funciones de añadir entrenamientos o alimentos se dispone de botones. Sin embargo, una vez entramos en cualquiera de las dos, a la función de añadir un alimento o entrenamiento hay que acceder através de un enlace contenido en texto, destacado eso sí pero texto. Ya que ambas funciones, añadir en la página principal o añadir en un entrenamiento, son similares, se debería utilizar en ambos sitios el mismo formato de botón para el acceso.
+	
+	\subsection{Especificación de unidades}
+	
+	Las unidades utilizadas en cada momento deben estar perfectamente bien indicadas y deben definir una cantidad concreta. Fallos concretos los encontramos a la hora de añadir un entrenamiento cardiovascular donde no se especifica que la unidad de medida en ese caso es el minuto. Otro caso se da en alimentos con porciones de ``un poco'' y otras medidas que pueden variar para los diferentes usuarios, ya se sabe que tomar un poco de algo depende de lo que le guste ese algo a cada usuario.
+	
+	De la misma forma, para especificar el agua consumida durante un día se indican el número de vasos que han sido consumidos, sin especificar en ningún sitio el tamaño del vaso.
+	
+	\subsection{Confirmación para el almacenamiento de datos}
+	
+	Hay que dejar al usuario que sea quien determine cuando se guardan los datos de un entrenamiento o comida en el sistema. En la aplicación testeada se ha observado que los datos de un entrenamiento tras añadir un ejercicio son guardados automáticamente, careciendo la página de un botón dedicado a tal función. Debería modificarse este comportamiento en favor del control por parte del usuario.
+	
+	\subsection{Segmentación de usuarios}
+	
+	Tras observar participantes con distinta experiencia deportiva o nutricional, una buena solución sería que los usuarios estuvieran en grupos separados. De esta forma, la interfaz mostrada a cada uno variaría ligeramente y permitiría a usuarios expertos disponer de una interfaz ligeramente más compleja en cuanto a no mostrar ningún tipo de ayuda o mensaje aclaratorio. por otro lado, usuarios que precisaran de ayuda tendrían una interfaz algo más cargada a la vez que sencilla que guiara sus pasos el las diferentes partes de los procesos.
+	
+	\subsection{Personalización a nivel de usuario}
+	
+	Entre los tres participantes observados, se han dado diferencias en cuanto a cómo quería cada uno que se mostraran ciertas cosas. Por ejemplo las búsquedas de alimentos, en unos casos los resultados eran excesivos, en otros resultaba agradable que se mostraran tantos. En cuanto a búsquedas de entrenamiento, usuarios expertos no tendrán problema en encontrar los diferentes ejercicios, pero usuarios meno hábiles en la materia queerrán optar por búsquedas más coloquiales.
+	
+	Esto lleva a la necesidad de recoger ciertos parámetros de personalización que se establecieran por defecto al registrar a un usuario pero que, posteriormente, pudieran ser modificados por el mismo y personalizados a los gustos y preferencias de cada uno.
+	
 
 \end{document}
