@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2014.2.3)  22 OCT 2014 09:09
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2014.2.3)  22 OCT 2014 14:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -983,35 +983,128 @@ Package pdftex.def Info: ./figuras/jonat-3.jpg used on input line 133.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+<./figuras/jonat-4.jpg, id=101, 2601.72pt x 1461.46pt>
+File: ./figuras/jonat-4.jpg Graphic file (type jpg)
+
+<use ./figuras/jonat-4.jpg>
+Package pdftex.def Info: ./figuras/jonat-4.jpg used on input line 139.
+(pdftex.def)             Requested size: 227.62206pt x 127.8462pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.137 		\FloatBarrier
+l.143 		\FloatBarrier
                       [2 <./figuras/jonat-1.jpg> <./figuras/jonat-2.jpg>]
-[3 <./figuras/jonat-3.jpg>] [4]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 231.
- [5] [6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 231.
- (./P1_IPC_Sanchez_Rodriguez_Ramirez.aux
+[3 <./figuras/jonat-3.jpg> <./figuras/jonat-4.jpg>]
+<./figuras/marta1.jpg, id=116, 2601.72pt x 1461.46pt>
+File: ./figuras/marta1.jpg Graphic file (type jpg)
+
+<use ./figuras/marta1.jpg>
+Package pdftex.def Info: ./figuras/marta1.jpg used on input line 181.
+(pdftex.def)             Requested size: 227.62206pt x 127.8462pt.
+
+<./figuras/marta2.jpg, id=117, 2601.72pt x 1461.46pt>
+File: ./figuras/marta2.jpg Graphic file (type jpg)
+
+<use ./figuras/marta2.jpg>
+Package pdftex.def Info: ./figuras/marta2.jpg used on input line 186.
+(pdftex.def)             Requested size: 227.62206pt x 127.8462pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./figuras/marta3.jpg, id=118, 2601.72pt x 1461.46pt>
+File: ./figuras/marta3.jpg Graphic file (type jpg)
+
+<use ./figuras/marta3.jpg>
+Package pdftex.def Info: ./figuras/marta3.jpg used on input line 191.
+(pdftex.def)             Requested size: 227.62206pt x 127.8462pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./figuras/marta4.jpg, id=119, 2601.72pt x 1461.46pt>
+File: ./figuras/marta4.jpg Graphic file (type jpg)
+
+<use ./figuras/marta4.jpg>
+Package pdftex.def Info: ./figuras/marta4.jpg used on input line 196.
+(pdftex.def)             Requested size: 227.62206pt x 127.8462pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[4 <./figuras/marta1.jpg>] [5 <./figuras/marta2.jpg> <./figuras/marta3.jpg> <./
+figuras/marta4.jpg>] [6]
+<./figuras/andoni1.jpg, id=143, 2601.72pt x 1461.46pt>
+File: ./figuras/andoni1.jpg Graphic file (type jpg)
+
+<use ./figuras/andoni1.jpg>
+Package pdftex.def Info: ./figuras/andoni1.jpg used on input line 245.
+(pdftex.def)             Requested size: 227.62206pt x 127.8462pt.
+
+<./figuras/andoni2.jpg, id=144, 2601.72pt x 1461.46pt>
+File: ./figuras/andoni2.jpg Graphic file (type jpg)
+
+<use ./figuras/andoni2.jpg>
+Package pdftex.def Info: ./figuras/andoni2.jpg used on input line 250.
+(pdftex.def)             Requested size: 227.62206pt x 127.8462pt.
+
+<./figuras/andoni3.jpg, id=145, 2601.72pt x 1461.46pt>
+File: ./figuras/andoni3.jpg Graphic file (type jpg)
+
+<use ./figuras/andoni3.jpg>
+Package pdftex.def Info: ./figuras/andoni3.jpg used on input line 255.
+(pdftex.def)             Requested size: 227.62206pt x 127.8462pt.
+
+<./figuras/andoni4.jpg, id=146, 2601.72pt x 1461.46pt>
+File: ./figuras/andoni4.jpg Graphic file (type jpg)
+
+<use ./figuras/andoni4.jpg>
+Package pdftex.def Info: ./figuras/andoni4.jpg used on input line 260.
+(pdftex.def)             Requested size: 227.62206pt x 127.8462pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./figuras/andoni5.jpg, id=147, 2601.72pt x 1461.46pt>
+File: ./figuras/andoni5.jpg Graphic file (type jpg)
+
+<use ./figuras/andoni5.jpg>
+Package pdftex.def Info: ./figuras/andoni5.jpg used on input line 265.
+(pdftex.def)             Requested size: 227.62206pt x 127.8462pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[7 <./figuras/andoni1.jpg> <./figuras/andoni2.jpg> <./figuras/andoni3.jpg>]
+[8 <./figuras/andoni4.jpg> <./figuras/andoni5.jpg>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 307.
+ [9]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 307.
+
+(./P1_IPC_Sanchez_Rodriguez_Ramirez.aux
 LaTeX Info: Redefining \. on input line 21.
 LaTeX Info: Redefining \% on input line 21.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 231.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 231.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 307.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 307.
 Package rerunfilecheck Info: File `P1_IPC_Sanchez_Rodriguez_Ramirez.out' has no
 t changed.
 (rerunfilecheck)             Checksum: 1FCBB0D426B42D2BE0954E1A6204415F;916.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 231.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 307.
  ) 
 Here is how much of TeX's memory you used:
- 15779 strings out of 495062
- 279391 string characters out of 3182745
- 352280 words of memory out of 3000000
- 18590 multiletter control sequences out of 15000+200000
+ 15842 strings out of 495062
+ 280613 string characters out of 3182745
+ 353280 words of memory out of 3000000
+ 18630 multiletter control sequences out of 15000+200000
  65512 words of font info for 48 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 56i,11n,57p,663b,341s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 56i,12n,57p,663b,343s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf-dist/fo
 nts/type1/public/lm/lmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmb
 x12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texm
@@ -1019,11 +1112,11 @@ f-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/publi
 c/lm/lmr17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/shar
 e/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf-dist/fonts/type1/
 public/lm/lmtt8.pfb>
-Output written on P1_IPC_Sanchez_Rodriguez_Ramirez.pdf (8 pages, 381519 bytes).
-
+Output written on P1_IPC_Sanchez_Rodriguez_Ramirez.pdf (11 pages, 14013532 byte
+s).
 PDF statistics:
- 171 PDF objects out of 1000 (max. 8388607)
- 148 compressed objects within 2 object streams
- 36 named destinations out of 1000 (max. 500000)
- 132 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 208 PDF objects out of 1000 (max. 8388607)
+ 172 compressed objects within 2 object streams
+ 49 named destinations out of 1000 (max. 500000)
+ 182 words of extra memory for PDF output out of 10000 (max. 10000000)
 
