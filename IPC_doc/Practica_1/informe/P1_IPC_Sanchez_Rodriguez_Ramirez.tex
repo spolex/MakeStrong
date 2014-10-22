@@ -144,7 +144,7 @@ Los usuarios pueden realizar su propio seguimiento mediante la consulta de estad
 			
 			Algunos datos de los requeridos por la aplicación, como el código postal y la fecha exacta de nacimiento, deberían ser opcionales. En cuanto a la fecha de nacimiento, con saber el año para calcular edad sería más que suficiente como parámetro para la aplicación.
 			
-			El vocabulario usado para preguntar sobre la frecuencia con que se va a practicar ejercicio resulta poco conciso. La aplicación pregunta por el número de "rutinas por semana". Ha sido necesario aclarar que se trata de días por semana que se va a practicar ejercicio.
+			El vocabulario usado para preguntar sobre la frecuencia con que se va a practicar ejercicio resulta poco conciso. La aplicación pregunta por el número de "rutinas por semana". Ha sido necesario aclarar que se trata de días por semana que se va a practicar ejercicio, ya que rutina se asocia a una serie de ejercicios que se practican en una sesión de entrenamiento y que esta misma rutina se puede repetir varios días.
 			
 			En cuanto a la función de invitar a amigos, no le resulta demasiado llamativa. Si que aprecia el mensaje en que la página asegura la privacidad del peso registrado y que éste no será visible a otros usuarios.
 			
@@ -164,21 +164,50 @@ Los usuarios pueden realizar su propio seguimiento mediante la consulta de estad
 			
 			\subsubsection*{Añadir alimentos}
 			
-			Correcta traducción a los diferencias, por ejemplo al añadir café, la cantidad se especificaba en número de ``cups''. En la búsqueda de alimentos resulta muy útil la posibilidad de hacer una búsqueda abierta como ``café'' y que se muestren varias opciones para seleccionar una concreta (un tipo de café determinado). Este es el tipo de búsqueda que se hechaba en falta a la hora de buscar los entrenamientos. Además se aprecia que la cantidad de entradas de alimentos es muy grande, hay gran cantidad de datos en la base de datos de la aplicación.
+			Traducción incorrecta a diferentes idiomas, por ejemplo al añadir café, la cantidad se especificaba en número de ``cups''. En la búsqueda de alimentos resulta muy útil la posibilidad de hacer una búsqueda abierta como ``café'' y que se muestren varias opciones para seleccionar una concreta (un tipo de café determinado, una marca concreta...). Éste es el tipo de búsqueda que se hechaba en falta a la hora de buscar los entrenamientos. Además se aprecia que la cantidad de entradas de alimentos es muy grande, hay gran cantidad de datos en la base de datos de la aplicación.
 			
-			\subsubsection*{Comentarios y mejoras generales}
+			Otro aspecto positivo es que la misma alicación te avisa si sobrepasas los objetivos de algún elemento como las calorías, los azúcares, grasas... y también muestra mensajes gratificantes como "Si todos los días fueran como hoy, pesarías X en 5 semanas".
+			
+			En cuanto al agua consumida, sería mejor añadirla por comida en vez de globalmente la consumida en el día. Además, resulta poco gráfico la entrada de agua con el icono del vaso.
+			
 			
 		\FloatBarrier
 		
 		\subsection{Andoni Martín}
 		
+			Estudiante de ingeniería informática y aficionado al trabajo hortelano.
+		
 			\subsubsection*{Registro de usuario}
 			
+			En el registro está marcada por defecto la casilla para que la aplicación envíe automáticacmente boletines al correo, no resultaría molesto si la casilla estuviera desactivada por defecto. Además, no pide confirmación de la contraseña, es decir, no hay que escribirla dos veces para comprobar que se ha escrito correctamente. Esto podría hacer que el usuario no pudiera autenticarse en el sistema tras acabar el registro y tuviera que solicitar la recuperación o cambio de la contraseña.
+			
+			En cuanto a datos personales se repite la opinión de que pedir la fecha de nacimiento completa no resulta necesario (el año serviría) y que este dato junto con el código postal deberían ser opcionales.
+			
+			A la hora de indicar la cantidad de veces que se practica deporte ha sido necesario explicar que ``rutina'' en ese caso se refería a los días a la semana que se realizará actividad física. El lenguaje utilizado no es específico y aclaratorio.
+			
+			En cuanto a la pantalla de selección de objetivos, se debe especificar el peso actual y el deseado, pero posteriormente pregunta cuál es tu objetivo entre opciones de ``bajar X kilos a la semana'', ``mantener'' o ``subir X a la semana''. El problema radica en que puedes indicar bajar 10 kilos de peso al especificar el peso actual y el objetivo, y luego seleccionar como objetivo aumentar peso. No resulta lógica tal selección, es probable que a un usuario no se le ocurra realizar tal selección, pero la aplicación debería avisar de esta incongruencia en caso de que se diera.
+			
+			El resumen de objetivos que se muestra al finalizar el registro resulta útil.
+			
 			\subsubsection*{Añadir un entrenamiento}
+			
+			En la pantalla se hace la distinción entre entrenamiento ``cardiovascular'' y ``de fuerza'', Andoni sabía a qué se refería cada uno, pero otros usuario pueden necesitar de ayuda, una explicación en pantalla de cuál es la diferencia entre ambos y por qué están separados.
+			
+			A la hora de añadir un entrenamiento de tipo cardiovascular, se pregunta por el tiempo de duración de dicho ejercicio, pero no se especifican las unidades en que se mide el tiempo. En cuanto a la búsqueda, le gusta que aparezca ``pasear al perro'' y que conduzca a una única opción, aunque, en general, la búsqueda de ejercicios debe hacerse de forma específica con el nombre técnico del entrenamiento.
+			
+			Además de añadir los diferentes ejercicios al entrenamiento, también se permiten añadir notas sobre el mismo. Resulta molesto que no se pueda escribir directamente en el campo de texto, que sería lo más directo, y que haya que pulsar en un pequeño botón de editar.
+			
+			Otra cosa que resulta un tanto molesta es que el entrenamiento se guarde automáticamente a cada ejercicio que se introduce. En su lugar, estaría mejor un botón de ``Aceptar'' o ``Guardar entrenamiento'' y que el botón de ``Imprprimir entrenamiento'' apareciera como secundario del formulario y no como único que es el caso actual.
 			
 			\subsubsection*{Añadir alimentos}
 			
 			\subsubsection*{Comentarios y mejoras generales}
+			
+			En cuanto al diseño de la página, las acciones en algunos sitios se presentan como botones (en la página principal por ejemplo) y en otros casos como enlaces (en las ventanas de entrenamiento o alimentación, las funciones de añadir entrenamientos o alimentos respectivamente).
+			
+			En la pantalla principal no resultan claros los nombres de las funcionalidades dados en los botones. ``Añadir alimento'' enlaza con la página para añadir los alimentos de un día, pero ``Añadir'' a secas enlaza con añadir un entrenamiento. Debería ser ``añadir entrenamiento'' que especifica qué es lo que se va a añadir en ese botón.
+			
+			En esta pantalla se muestra también una barra que indica los días seguidos que se ha hecho el seguimiento de la actividad física. Su diseño induce a pensar que se trata de un elemento deslizable que el usuario puede ajustar.
 			
 		\FloatBarrier
 		

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2014.2.3)  21 OCT 2014 22:59
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2014.2.3)  22 OCT 2014 09:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -990,28 +990,28 @@ been already used, duplicate ignored
 l.137 		\FloatBarrier
                       [2 <./figuras/jonat-1.jpg> <./figuras/jonat-2.jpg>]
 [3 <./figuras/jonat-3.jpg>] [4]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 218.
- [5]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 218.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 231.
+ [5] [6]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 231.
  (./P1_IPC_Sanchez_Rodriguez_Ramirez.aux
 LaTeX Info: Redefining \. on input line 21.
 LaTeX Info: Redefining \% on input line 21.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 218.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 218.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 231.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 231.
 Package rerunfilecheck Info: File `P1_IPC_Sanchez_Rodriguez_Ramirez.out' has no
 t changed.
 (rerunfilecheck)             Checksum: 1FCBB0D426B42D2BE0954E1A6204415F;916.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 218.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 231.
  ) 
 Here is how much of TeX's memory you used:
- 15778 strings out of 495062
- 279381 string characters out of 3182745
+ 15779 strings out of 495062
+ 279391 string characters out of 3182745
  352280 words of memory out of 3000000
- 18589 multiletter control sequences out of 15000+200000
+ 18590 multiletter control sequences out of 15000+200000
  65512 words of font info for 48 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 56i,12n,57p,663b,341s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 56i,11n,57p,663b,341s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf-dist/fo
 nts/type1/public/lm/lmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmb
 x12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texm
@@ -1019,11 +1019,11 @@ f-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/publi
 c/lm/lmr17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/shar
 e/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf-dist/fonts/type1/
 public/lm/lmtt8.pfb>
-Output written on P1_IPC_Sanchez_Rodriguez_Ramirez.pdf (7 pages, 378968 bytes).
+Output written on P1_IPC_Sanchez_Rodriguez_Ramirez.pdf (8 pages, 381519 bytes).
 
 PDF statistics:
- 168 PDF objects out of 1000 (max. 8388607)
- 146 compressed objects within 2 object streams
+ 171 PDF objects out of 1000 (max. 8388607)
+ 148 compressed objects within 2 object streams
  36 named destinations out of 1000 (max. 500000)
  132 words of extra memory for PDF output out of 10000 (max. 10000000)
 
