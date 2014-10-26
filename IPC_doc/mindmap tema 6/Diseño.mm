@@ -4,17 +4,22 @@
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1414241455785" ID="ID_93007905" MODIFIED="1414241494955" POSITION="right" TEXT="Creaci&#xf3;n de GUIs">
 <node CREATED="1414241515129" ID="ID_425279216" MODIFIED="1414241533666" TEXT="F&#xe1;cil mediante herramientas"/>
-<node CREATED="1414241544071" ID="ID_536024168" MODIFIED="1414241569901" TEXT="No siempre resultan usables">
+<node CREATED="1414241544071" HGAP="31" ID="ID_536024168" MODIFIED="1414344272858" TEXT="No siempre resultan usables" VSHIFT="-33">
 <node CREATED="1414241573959" ID="ID_1828504349" MODIFIED="1414241589749" TEXT="Soluci&#xf3;n: Gu&#xed;as de estilo">
 <node CREATED="1414241592765" ID="ID_737027181" MODIFIED="1414241609556" TEXT="consejos para el desarrollador"/>
 <node CREATED="1414241611511" ID="ID_639835006" MODIFIED="1414241621913" TEXT="Espec&#xed;ficas para cada sistema"/>
 </node>
 </node>
 <node CREATED="1414241628770" ID="ID_76946064" MODIFIED="1414241640573" TEXT="Se dispone de diferentes elementos">
-<node CREATED="1414241651350" ID="ID_998596354" MODIFIED="1414244739061" TEXT="Iconos">
-<icon BUILTIN="closed"/>
-<icon BUILTIN="closed"/>
-<node CREATED="1414244716890" ID="ID_1869614602" MODIFIED="1414244726938" TEXT="lo reviso luego con lo que tengo"/>
+<node CREATED="1414241651350" HGAP="19" ID="ID_998596354" MODIFIED="1414344365762" TEXT="Iconos" VSHIFT="-28">
+<node CREATED="1414244716890" ID="ID_1869614602" MODIFIED="1414344744438" TEXT="Ayudan a identificar funcionalidad"/>
+<node CREATED="1414344295539" ID="ID_156870749" MODIFIED="1414344302489" TEXT="Deben ir acompa&#xf1;ados de texto"/>
+<node CREATED="1414344328689" ID="ID_1804110025" MODIFIED="1414344335236" TEXT="Conviene que sean conocidos"/>
+<node CREATED="1414344804037" ID="ID_1282768526" MODIFIED="1414344808550" TEXT="Tres tipos">
+<node CREATED="1414344816790" ID="ID_1996601080" MODIFIED="1414344839349" TEXT="Met&#xe1;foras"/>
+<node CREATED="1414344820414" ID="ID_1625093512" MODIFIED="1414344854933" TEXT="Simbolog&#xed;a directa"/>
+<node CREATED="1414344822837" ID="ID_706181931" MODIFIED="1414344865110" TEXT="Est&#xe1;ndares"/>
+</node>
 </node>
 <node CREATED="1414241665083" ID="ID_1226854438" MODIFIED="1414241684349" TEXT="Men&#xfa;s">
 <node CREATED="1414244603934" ID="ID_899250457" MODIFIED="1414244611995" TEXT="Organizan y guardan comandos"/>
@@ -43,14 +48,15 @@
 <node CREATED="1414241685588" ID="ID_683855477" MODIFIED="1414244370015" TEXT="Botones">
 <icon BUILTIN="messagebox_warning"/>
 </node>
-<node CREATED="1414241699469" ID="ID_1651979205" MODIFIED="1414244360720" TEXT="Radio buttons">
-<icon BUILTIN="messagebox_warning"/>
+<node CREATED="1414241699469" ID="ID_1651979205" MODIFIED="1414345101621" TEXT="Radio buttons">
+<node CREATED="1414344908389" ID="ID_548622932" MODIFIED="1414344921488" TEXT="Permiten elegir entre alternativas exclusivas"/>
 </node>
-<node CREATED="1414241709677" ID="ID_906719968" MODIFIED="1414244356922" TEXT="Checkboxes">
-<icon BUILTIN="messagebox_warning"/>
+<node CREATED="1414241709677" ID="ID_906719968" MODIFIED="1414345095407" TEXT="Checkboxes">
+<node CREATED="1414344937957" ID="ID_309411945" MODIFIED="1414344946616" TEXT="Elecci&#xf3;n de alternativas no exclusivas"/>
 </node>
-<node CREATED="1414241719580" ID="ID_847343680" MODIFIED="1414244354105" TEXT="Barras de herramientas">
-<icon BUILTIN="messagebox_warning"/>
+<node CREATED="1414241719580" ID="ID_847343680" MODIFIED="1414345088589" TEXT="Barras de herramientas">
+<node CREATED="1414344967789" ID="ID_11654392" MODIFIED="1414344987028" TEXT="Colecci&#xf3;n de botones para una funcionalidad determinada"/>
+<node CREATED="1414344999765" ID="ID_365842628" MODIFIED="1414345002468" TEXT="Configurables"/>
 </node>
 <node CREATED="1414241729194" ID="ID_1068142455" MODIFIED="1414244351085" TEXT="List boxes">
 <icon BUILTIN="messagebox_warning"/>
@@ -91,8 +97,9 @@
 <node CREATED="1414241852038" ID="ID_588392728" MODIFIED="1414241863767" TEXT="Saber c&#xf3;mo se deben hacer las cosas"/>
 <node CREATED="1414241880173" ID="ID_717457688" MODIFIED="1414241893506" TEXT="Los dise&#xf1;os deben ser claros y consistentes"/>
 <node CREATED="1414241896874" ID="ID_1809296639" MODIFIED="1414241973564" TEXT="Gu&#xed;as de percepci&#xf3;n">
-<node CREATED="1414242971824" ID="ID_1946113713" MODIFIED="1414243748964" TEXT="Basadas en las leyes de Gestalf (consultar otra vez)">
-<icon BUILTIN="help"/>
+<node CREATED="1414242971824" ID="ID_1946113713" MODIFIED="1414345210523" TEXT="Basadas en las leyes de Gestalt">
+<node CREATED="1414345142900" ID="ID_98315493" MODIFIED="1414345148947" TEXT="Corriente de psicolog&#xed;a moderna"/>
+<node CREATED="1414345179051" ID="ID_1826128955" MODIFIED="1414345188914" TEXT="Estudia las formas y la percepci&#xf3;n que hace la mente de ellas"/>
 </node>
 <node CREATED="1414241940262" ID="ID_451868008" MODIFIED="1414241946236" TEXT="Proximidad">
 <node CREATED="1414242850814" ID="ID_123851096" MODIFIED="1414242874187" TEXT="Los objetos pr&#xf3;nimos entre ellos se perciben juntos"/>
@@ -106,8 +113,9 @@
 <node CREATED="1414242756356" ID="ID_1277593606" MODIFIED="1414242767988" TEXT="conecta elementos disconexos"/>
 <node CREATED="1414242770757" ID="ID_903612594" MODIFIED="1414242792299" TEXT="Ej.: el scroll en una carpeta de muchos elementos"/>
 </node>
-<node CREATED="1414241995757" ID="ID_1225427354" MODIFIED="1414242741055" TEXT="Cierre">
-<icon BUILTIN="messagebox_warning"/>
+<node CREATED="1414241995757" ID="ID_1225427354" MODIFIED="1414345312964" TEXT="Cierre">
+<node CREATED="1414345251331" ID="ID_362718041" MODIFIED="1414345271138" TEXT="Se percibe una estructura cerrada cuando no est&#xe1; expl&#xed;cita"/>
+<node CREATED="1414345274970" ID="ID_1524175811" MODIFIED="1414345303858" TEXT="Ej.: Interpretar un &#xe1;rbol de ficheros cuando no aparecen unidos"/>
 </node>
 </node>
 <node CREATED="1414241910024" ID="ID_1795679708" MODIFIED="1414241927862" TEXT="Uso de la memoria y la atenci&#xf3;n">
@@ -134,13 +142,17 @@
 <node CREATED="1414242607208" ID="ID_533103162" MODIFIED="1414242685918" TEXT="es m&#xe1;s f&#xe1;cil y r&#xe1;pido que el recuerdo"/>
 </node>
 </node>
-<node CREATED="1414243270459" ID="ID_901381405" MODIFIED="1414244830272" TEXT="Esto lo miro a ver si lo dejo aqu&#xed;, son los &#xfa;ltimos apartados del tocho">
-<icon BUILTIN="messagebox_warning"/>
-<icon BUILTIN="messagebox_warning"/>
+<node CREATED="1414243270459" ID="ID_901381405" MODIFIED="1414345928496" TEXT="Esto lo miro a ver si lo dejo aqu&#xed;, son los &#xfa;ltimos apartados del tocho">
 <node CREATED="1414243296276" ID="ID_1428839424" MODIFIED="1414243310614" TEXT="Dise&#xf1;ando para la memoria">
-<node CREATED="1414243326138" ID="ID_1850376682" MODIFIED="1414243359420" TEXT="Es un ejemplo lo que dicen, quiz&#xe1; ponemos alguna pauta que explican">
-<icon BUILTIN="messagebox_warning"/>
-<icon BUILTIN="messagebox_warning"/>
+<node CREATED="1414243326138" ID="ID_1850376682" MODIFIED="1414345620202" TEXT="Consiste en basarse en el reconocimiento en lugar de la memoria"/>
+<node CREATED="1414345463201" ID="ID_571700241" MODIFIED="1414345473082" TEXT="La paleta de formato de Microsoft Word">
+<node CREATED="1414345476625" ID="ID_1602700328" MODIFIED="1414345499552" TEXT="Asigna letras sigificativas: N para Negrita, I para it&#xe1;lica..."/>
+<node CREATED="1414345515905" ID="ID_1699695660" MODIFIED="1414345609184" TEXT="Organiza las opciones en cuatro secciones l&#xf3;gicas:">
+<node CREATED="1414345560361" ID="ID_161792643" MODIFIED="1414345571737" TEXT="Fuente"/>
+<node CREATED="1414345563145" ID="ID_707404280" MODIFIED="1414345576896" TEXT="Alineaci&#xf3;n y espaciado"/>
+<node CREATED="1414345564953" ID="ID_1120969260" MODIFIED="1414345588753" TEXT="Bordes y sombras"/>
+<node CREATED="1414345566688" ID="ID_593290605" MODIFIED="1414345598594" TEXT="Documento"/>
+</node>
 </node>
 </node>
 <node CREATED="1414243365393" ID="ID_596869188" MODIFIED="1414243380119" TEXT="Dise&#xf1;ando con color">
@@ -153,16 +165,63 @@
 <node CREATED="1414243613885" ID="ID_1205157747" MODIFIED="1414243645295" TEXT="5. Usar combinaciones familiares y consistentes que muestren referencias apropiadas"/>
 </node>
 </node>
-<node CREATED="1414243657567" ID="ID_1873085539" MODIFIED="1414243672996" TEXT="Gu&#xed;as para evitar errores">
-<icon BUILTIN="messagebox_warning"/>
-<icon BUILTIN="messagebox_warning"/>
-<node CREATED="1414243680371" ID="ID_445061833" MODIFIED="1414243703245" TEXT="En las p&#xe1;g 19 - 21 del doc gordo, me falta por leer">
-<icon BUILTIN="messagebox_warning"/>
-<icon BUILTIN="messagebox_warning"/>
+<node CREATED="1414243657567" ID="ID_1873085539" MODIFIED="1414345920335" TEXT="Gu&#xed;as para evitar errores">
+<node CREATED="1414243680371" ID="ID_445061833" MODIFIED="1414345692095" TEXT="Simplificar las tareas para reducir las exigencias cognitivas"/>
+<node CREATED="1414345696511" ID="ID_1588463184" MODIFIED="1414345765278" TEXT="Planificarse para los errores"/>
+<node CREATED="1414345701139" ID="ID_273207210" MODIFIED="1414345794734" TEXT="En &#xfa;ltima instancia, recurrir a la estandarizaci&#xf3;n"/>
+<node CREATED="1414345720770" ID="ID_1149153069" MODIFIED="1414345838958" TEXT="Hacer uso de las relaciones naturales entre acciones y efectos en el sistema"/>
+<node CREATED="1414345721570" ID="ID_1483149916" MODIFIED="1414345901341" TEXT="Utilizar el conocimiento para realizar un buen modelo que enlace el modelo del usuario, del sistema y el del dise&#xf1;ador"/>
 </node>
 </node>
 </node>
 </node>
+</node>
+<node CREATED="1414345957957" ID="ID_427635750" MODIFIED="1414345965885" POSITION="left" TEXT="Principios de Dise&#xf1;o">
+<node CREATED="1414345970816" ID="ID_97970383" MODIFIED="1414345981581" TEXT="Visibilidad">
+<node CREATED="1414346083984" ID="ID_889910215" MODIFIED="1414346091500" TEXT="El usuario debe ver las funciones"/>
+<node CREATED="1414346109711" ID="ID_662121167" MODIFIED="1414346117019" TEXT="Poder saber qu&#xe9; est&#xe1; haciendo el sistema"/>
+</node>
+<node CREATED="1414345972064" ID="ID_144208349" MODIFIED="1414345987801" TEXT="Consistencia">
+<node CREATED="1414346135389" ID="ID_1281881347" MODIFIED="1414346146428" TEXT="El dise&#xf1;o debe ser consistente con sistemas similares"/>
+</node>
+<node CREATED="1414345972864" ID="ID_182623045" MODIFIED="1414345991709" TEXT="Familiaridad">
+<node CREATED="1414346160612" ID="ID_524442008" MODIFIED="1414346182763" TEXT="Conviene usar lenguaje y simbolog&#xed;a con la que el usuario est&#xe9; familiarizado"/>
+<node CREATED="1414346194175" ID="ID_792791524" MODIFIED="1414346199723" TEXT="Si no es posible, utilizar met&#xe1;foras"/>
+</node>
+<node CREATED="1414345973600" ID="ID_891802231" MODIFIED="1414346052781" TEXT="Sugerencia">
+<node CREATED="1414346218756" ID="ID_298285077" MODIFIED="1414346233899" TEXT="Los elementos deben dejar patente cu&#xe1;l es su funci&#xf3;n"/>
+</node>
+<node CREATED="1414346252254" ID="ID_1378617141" MODIFIED="1414346255723" TEXT="Navegaci&#xf3;n">
+<node CREATED="1414346307211" ID="ID_1594514145" MODIFIED="1414346316603" TEXT="Permitir al usuario navegar a trav&#xe9;s del sistema"/>
+<node CREATED="1414346317438" ID="ID_1837638196" MODIFIED="1414346337002" TEXT="Mapas, se&#xf1;ales de direcci&#xf3;n..."/>
+</node>
+<node CREATED="1414346256126" ID="ID_1346981913" MODIFIED="1414346263340" TEXT="Control">
+<node CREATED="1414346345742" ID="ID_826143470" MODIFIED="1414346351500" TEXT="Dejar patente qu&#xe9; est&#xe1; bajo control"/>
+<node CREATED="1414346355358" ID="ID_276887672" MODIFIED="1414346361338" TEXT="Permitir tomar control si es posible"/>
+</node>
+<node CREATED="1414346256526" ID="ID_951548173" MODIFIED="1414346270171" TEXT="Retroalimentaci&#xf3;n">
+<node CREATED="1414346368750" ID="ID_13279129" MODIFIED="1414346386330" TEXT="Dar informaci&#xf3;n sobre qu&#xe9; efectos tiene la interacci&#xf3;n"/>
+<node CREATED="1414346393853" ID="ID_1941947669" MODIFIED="1414346399276" TEXT="Mejora la sensaci&#xf3;n de control"/>
+</node>
+<node CREATED="1414346256878" ID="ID_565911026" MODIFIED="1414346277309" TEXT="Recuperaci&#xf3;n">
+<node CREATED="1414346406845" ID="ID_1396242486" MODIFIED="1414346416218" TEXT="Permitir la recuperaci&#xf3;n despu&#xe9;s de errores"/>
+<node CREATED="1414346416590" ID="ID_1056051211" MODIFIED="1414346423226" TEXT="Opci&#xf3;n de volver atr&#xe1;s, deshacer..."/>
+</node>
+<node CREATED="1414346257199" ID="ID_1277538174" MODIFIED="1414346454058" TEXT="Restricciones">
+<node CREATED="1414346454781" ID="ID_1760328856" MODIFIED="1414346476297" TEXT="Proporcionar para que el usuario no haga cosas inapropiadas"/>
+<node CREATED="1414346487181" ID="ID_841156712" MODIFIED="1414346505050" TEXT="Informar sobre posibles errores graves a cometer (mensajes de advertencia)"/>
+</node>
+<node CREATED="1414346257519" ID="ID_1106398926" MODIFIED="1414346557418" TEXT="Flexibilidad">
+<node CREATED="1414346510861" ID="ID_518158437" MODIFIED="1414346519434" TEXT="Permitir diversas formas de realizar acciones"/>
+<node CREATED="1414346520605" ID="ID_360255932" MODIFIED="1414346550393" TEXT="Adaptarse a diferentes tipos de usuarios depediendo de su experiencia"/>
+<node CREATED="1414346560188" ID="ID_1585558948" MODIFIED="1414346575177" TEXT="Permitir personalizar el aspecto o el comportamiento del sistema"/>
+</node>
+<node CREATED="1414346257823" ID="ID_1461250388" MODIFIED="1414346296043" TEXT="Estilo">
+<node CREATED="1414346580860" ID="ID_133628801" MODIFIED="1414346590681" TEXT="El dise&#xf1;o debe tener un buen estilo y ser atractivo"/>
+</node>
+<node CREATED="1414346296286" ID="ID_126929220" MODIFIED="1414346298747" TEXT="Convivencia">
+<node CREATED="1414346603772" ID="ID_1422341076" MODIFIED="1414346652232" TEXT="Los sistemas deben ser amables, amigables y agradables de usar "/>
+<node CREATED="1414346626028" ID="ID_619507916" MODIFIED="1414346634040" TEXT="No debe haber interrupciones agresivas"/>
 </node>
 </node>
 </node>
