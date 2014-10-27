@@ -45,9 +45,6 @@
 </node>
 </node>
 </node>
-<node CREATED="1414241685588" ID="ID_683855477" MODIFIED="1414244370015" TEXT="Botones">
-<icon BUILTIN="messagebox_warning"/>
-</node>
 <node CREATED="1414241699469" ID="ID_1651979205" MODIFIED="1414345101621" TEXT="Radio buttons">
 <node CREATED="1414344908389" ID="ID_548622932" MODIFIED="1414344921488" TEXT="Permiten elegir entre alternativas exclusivas"/>
 </node>
@@ -58,8 +55,10 @@
 <node CREATED="1414344967789" ID="ID_11654392" MODIFIED="1414344987028" TEXT="Colecci&#xf3;n de botones para una funcionalidad determinada"/>
 <node CREATED="1414344999765" ID="ID_365842628" MODIFIED="1414345002468" TEXT="Configurables"/>
 </node>
-<node CREATED="1414241729194" ID="ID_1068142455" MODIFIED="1414244351085" TEXT="List boxes">
-<icon BUILTIN="messagebox_warning"/>
+<node CREATED="1414241729194" ID="ID_1068142455" MODIFIED="1414436475909" TEXT="List boxes">
+<node CREATED="1414436409332" ID="ID_79759850" MODIFIED="1414436419303" TEXT="Listado de elementos"/>
+<node CREATED="1414436457070" ID="ID_121105667" MODIFIED="1414436467757" TEXT="Muestra listados, ficheros..."/>
+<node CREATED="1414436421099" ID="ID_1961842470" MODIFIED="1414436435052" TEXT="Pueden contener thumbnails"/>
 </node>
 <node CREATED="1414241758312" ID="ID_835877038" MODIFIED="1414241764886" TEXT="Sliders">
 <node CREATED="1414244298356" ID="ID_1980485249" MODIFIED="1414244315114" TEXT="Representan valores anal&#xf3;gicos"/>
@@ -142,12 +141,12 @@
 <node CREATED="1414242607208" ID="ID_533103162" MODIFIED="1414242685918" TEXT="es m&#xe1;s f&#xe1;cil y r&#xe1;pido que el recuerdo"/>
 </node>
 </node>
-<node CREATED="1414243270459" ID="ID_901381405" MODIFIED="1414345928496" TEXT="Esto lo miro a ver si lo dejo aqu&#xed;, son los &#xfa;ltimos apartados del tocho">
+<node CREATED="1414243270459" ID="ID_901381405" MODIFIED="1414436602354" TEXT="">
 <node CREATED="1414243296276" ID="ID_1428839424" MODIFIED="1414243310614" TEXT="Dise&#xf1;ando para la memoria">
 <node CREATED="1414243326138" ID="ID_1850376682" MODIFIED="1414345620202" TEXT="Consiste en basarse en el reconocimiento en lugar de la memoria"/>
-<node CREATED="1414345463201" ID="ID_571700241" MODIFIED="1414345473082" TEXT="La paleta de formato de Microsoft Word">
+<node CREATED="1414345463201" ID="ID_571700241" MODIFIED="1414436253097" TEXT="La paleta de formato de Microsoft Word">
 <node CREATED="1414345476625" ID="ID_1602700328" MODIFIED="1414345499552" TEXT="Asigna letras sigificativas: N para Negrita, I para it&#xe1;lica..."/>
-<node CREATED="1414345515905" ID="ID_1699695660" MODIFIED="1414345609184" TEXT="Organiza las opciones en cuatro secciones l&#xf3;gicas:">
+<node CREATED="1414345515905" FOLDED="true" ID="ID_1699695660" MODIFIED="1414436255757" TEXT="Organiza las opciones en cuatro secciones l&#xf3;gicas:">
 <node CREATED="1414345560361" ID="ID_161792643" MODIFIED="1414345571737" TEXT="Fuente"/>
 <node CREATED="1414345563145" ID="ID_707404280" MODIFIED="1414345576896" TEXT="Alineaci&#xf3;n y espaciado"/>
 <node CREATED="1414345564953" ID="ID_1120969260" MODIFIED="1414345588753" TEXT="Bordes y sombras"/>
@@ -157,7 +156,7 @@
 </node>
 <node CREATED="1414243365393" ID="ID_596869188" MODIFIED="1414243380119" TEXT="Dise&#xf1;ando con color">
 <node CREATED="1414243387171" ID="ID_426874452" MODIFIED="1414243420683" TEXT="Existen convenciones en la interpretaci&#xf3;n de los colores, aunque pueden variar dependiendo del lugar"/>
-<node CREATED="1414243447486" ID="ID_1914418003" MODIFIED="1414243466094" TEXT="Reglas de Aaron Marcus">
+<node CREATED="1414243447486" ID="ID_1914418003" MODIFIED="1414436253114" TEXT="Reglas de Aaron Marcus">
 <node CREATED="1414243466970" ID="ID_1228618876" MODIFIED="1414243485797" TEXT="1. Usar m&#xe1;ximo 5 +- 2 colores"/>
 <node CREATED="1414243488255" ID="ID_1994789332" MODIFIED="1414243508952" TEXT="2. Usar colores centrales y perif&#xe9;ricos de forma apropiada"/>
 <node CREATED="1414243511739" ID="ID_916440125" MODIFIED="1414243580300" TEXT="3. Para un &#xe1;rea, usar un color que muestre el menor cambio de color y tama&#xf1;o cuando el &#xe1;rea en cuesti&#xf3;n cambie de tama&#xf1;o"/>
