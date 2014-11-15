@@ -1,0 +1,4 @@
+-C
+-A
+-Inicio, planes de entrenamiento, consulta de objetivos,noticias y consulta experto pondría los principales y el resto secundarios 
+-La interfaz parece sencilla, limpia y fácil de entender
