@@ -1,0 +1,9 @@
+\select@language {spanish}
+\contentsline {section}{\numberline {1}Resultados de la evaluaci\IeC {\'o}n}{1}{section.1}
+\contentsline {subsection}{\numberline {1.1}Desglose por categor\IeC {\'\i }as}{1}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Resumen resultados}{1}{subsection.1.2}
+\contentsline {section}{\numberline {2}Valoraciones personales}{1}{section.2}
+\contentsline {subsection}{\numberline {2.1}Josu Rodr\IeC {\'\i }guez}{1}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Jose Ignacio S\IeC {\'a}nchez}{1}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}David Ramirez}{1}{subsection.2.3}
+\contentsline {section}{\numberline {3}Valoraci\IeC {\'o}n grupal}{1}{section.3}

@@ -1,0 +1,10 @@
+
+IMPORTANTE LEER:
+
+1- Dentro de la carpeta "Prototype" abrir el archivo "index" con el navegador.
+
+2- Una vez abierto el navegador donde se muestra el prototipo, arriba se ofrece una opcion " Highlight interactive areas", 
+para que muestre los iconos interactivos de la pantalla en la que te encuentras.
+
+2- En el menu Android inicial (donde estan todas las aplicaciones) se muestra muestra la aplicacion creada:"virtual trainer". 
+En la parte superior de este menu tambien hay 2 notificaciones que se pueden ver si pulsamos sobre ellas.
