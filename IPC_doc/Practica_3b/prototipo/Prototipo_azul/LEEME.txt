@@ -1,0 +1,13 @@
+
+IMPORTANTE LEER:
+
+1- Dentro de la carpeta "Prototype_azul" abrir el archivo "index" con el navegador.
+
+2- Depende del navegador que utilicemos, es posible que nos pida que instalemos una herrameinta en el navegador 
+para poder visualizar el prototio (seguir los pasos que se indican en el propio navegador)
+
+3- Una vez abierto el navegador y que ya se muestra el prototipo, arriba se ofrece una opcion "Highlight interactive areas", 
+para que muestre los iconos interactivos de la pantalla en la que te encuentras.
+
+4- En el menu Android inicial (donde estan todas las aplicaciones) se muestra muestra la aplicacion creda:"virtual trainer". 
+En la parte superior de este menu tambien hay 2 notificaciones que se pueden ver si pulsamos sobre ellas.
