@@ -107,35 +107,23 @@
 <node CREATED="1417525819104" ID="ID_1069512297" MODIFIED="1417525861916" TEXT="Al aplicarlo se obtienen requisitos a cubrir que mejorar&#xe1;n la experiencia de los usuarios al usar nuestro sistema"/>
 </node>
 </node>
-<node CREATED="1417467017651" ID="ID_736151654" MODIFIED="1417550826494" TEXT="Grupos de discusi&#xf3;n dirigidos">
-<node CREATED="1417467974151" ID="ID_274487701" MODIFIED="1417468096709" TEXT="&#xbf;En qu&#xe9; consiste?">
-<node CREATED="1417539067777" ID="ID_662840495" MODIFIED="1417539514810" TEXT="Reuni&#xf3;nes estructuradas de implicados y usuarios representativos"/>
-<node CREATED="1417539354163" ID="ID_1454593704" MODIFIED="1417539400355" TEXT="Recoger en un resumen el flujo libre de ideas sobre el proyecto">
-<node CREATED="1417539604228" ID="ID_152922131" MODIFIED="1417539685425" TEXT="Dificil an&#xe1;lisis de la informaci&#xf3;n desestructurada"/>
-</node>
-</node>
-<node CREATED="1417469376861" ID="ID_1895188170" MODIFIED="1417469379070" TEXT="&#xbf;Qu&#xe9; requiere?">
-<node CREATED="1417539595452" HGAP="19" ID="ID_583808005" MODIFIED="1417550874133" TEXT="Moderador"/>
-<node CREATED="1417539604228" ID="ID_191763742" MODIFIED="1417539765960" TEXT="An&#xe1;lisis de la informaci&#xf3;n desestructurada"/>
-</node>
-<node CREATED="1417467997529" ID="ID_1186868765" MODIFIED="1417468292000" STYLE="bubble" TEXT="Aplicaci&#xf3;n al proyecto">
-<edge COLOR="#00ff00"/>
-<node CREATED="1417467974151" ID="ID_421901363" MODIFIED="1417539591274" TEXT="&#xbf;En qu&#xe9; consiste?">
+<node CREATED="1417467017651" ID="ID_736151654" MODIFIED="1417536881813" TEXT="Grupos de discusi&#xf3;n dirigidos">
+<icon BUILTIN="messagebox_warning"/>
+<node CREATED="1417467974151" ID="ID_274487701" MODIFIED="1417539591274" TEXT="&#xbf;En qu&#xe9; consiste?">
 <node CREATED="1417539067777" ID="ID_228472807" MODIFIED="1417539514810" TEXT="Reuni&#xf3;nes estructuradas de implicados y usuarios representativos"/>
 <node CREATED="1417539354163" ID="ID_276352867" MODIFIED="1417539400355" TEXT="Recoger en un resumen el flujo libre de ideas sobre el proyecto">
 <node CREATED="1417539604228" ID="ID_1925332188" MODIFIED="1417539685425" TEXT="Dificil an&#xe1;lisis de la informaci&#xf3;n desestructurada"/>
 </node>
 </node>
-<node CREATED="1417469376861" ID="ID_1836883073" MODIFIED="1417539770337" TEXT="&#xbf;Qu&#xe9; requiere?">
+<node CREATED="1417469376861" ID="ID_1895188170" MODIFIED="1417539770337" TEXT="&#xbf;Qu&#xe9; requiere?">
 <node CREATED="1417539595452" HGAP="37" ID="ID_291456648" MODIFIED="1417539722874" TEXT="Moderador" VSHIFT="-13"/>
 <node CREATED="1417539604228" ID="ID_1981939774" MODIFIED="1417539765960" TEXT="An&#xe1;lisis de la informaci&#xf3;n desestructurada"/>
 </node>
-<node CREATED="1417467997529" ID="ID_156558477" MODIFIED="1417468292000" STYLE="bubble" TEXT="Aplicaci&#xf3;n al proyecto">
+<node CREATED="1417467997529" ID="ID_1186868765" MODIFIED="1417468292000" STYLE="bubble" TEXT="Aplicaci&#xf3;n al proyecto">
 <edge COLOR="#00ff00"/>
 <node CREATED="1417539777235" ID="ID_673663031" MODIFIED="1417539884055" TEXT="Este m&#xe9;todo no es aplicable"/>
 <node CREATED="1417539802898" ID="ID_261078889" MODIFIED="1417539849359" TEXT="Debido a que es necesario reunir en diferentes sesiones usuarios representativos, este m&#xe9;todo lo hemos considerado no viable"/>
 <node CREATED="1417539908793" ID="ID_1370456446" MODIFIED="1417539965949" TEXT="Para ser capaz de moderar este tipo de sesiones son necesarias destrezas especificas y experiencia."/>
-</node>
 </node>
 </node>
 <node CREATED="1417467034769" ID="ID_230473945" MODIFIED="1417468096712" TEXT="Entrevistas">
@@ -170,7 +158,8 @@
 <node CREATED="1417526032932" ID="ID_1654043903" MODIFIED="1417526071138" TEXT="Como resultado, se modific&#xf3; el dise&#xf1;o preliminar realizado antes de analizar las respuestas de la encuesta"/>
 </node>
 </node>
-<node CREATED="1417467056575" ID="ID_1187170067" MODIFIED="1417550777485" TEXT="Registro de uso (logging)">
+<node CREATED="1417467056575" ID="ID_1187170067" MODIFIED="1417536876608" TEXT="Registro de uso (logging)">
+<icon BUILTIN="messagebox_warning"/>
 <node CREATED="1417467974151" ID="ID_519617524" MODIFIED="1417468096709" TEXT="&#xbf;En qu&#xe9; consiste?">
 <node CREATED="1417540109616" ID="ID_714407069" MODIFIED="1417540154565" TEXT="Grabar las acciones de usuario sobre el sistema."/>
 </node>
@@ -195,7 +184,8 @@
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
 <node CREATED="1417467669043" ID="ID_1593204807" MODIFIED="1417468096701" STYLE="fork" TEXT="M&#xe9;todos:">
-<node CREATED="1417467676866" ID="ID_467717678" MODIFIED="1417550687069" TEXT="Medida de las prestaciones">
+<node CREATED="1417467676866" ID="ID_467717678" MODIFIED="1417537393223" TEXT="Medida de las prestaciones">
+<icon BUILTIN="messagebox_warning"/>
 <node CREATED="1417467974151" ID="ID_368335998" MODIFIED="1417468096709" TEXT="&#xbf;En qu&#xe9; consiste?">
 <node CREATED="1417540691644" ID="ID_789186671" MODIFIED="1417540704369" TEXT="Toma de medidas acerca del rendimiento."/>
 <node CREATED="1417540729659" ID="ID_1847382169" MODIFIED="1417540745679" TEXT="Analizar el uso por usuarios &quot;reales&quot;"/>
@@ -212,7 +202,8 @@
 <node CREATED="1417541351278" ID="ID_586965268" MODIFIED="1417541382066" TEXT="No lo llevamos a cabo, no disponemos de laboratorio de usabilidad."/>
 </node>
 </node>
-<node CREATED="1417467709990" ID="ID_517294864" MODIFIED="1417550682428" TEXT="Pensar en voz alta">
+<node CREATED="1417467709990" ID="ID_517294864" MODIFIED="1417537395557" TEXT="Pensar en voz alta">
+<icon BUILTIN="messagebox_warning"/>
 <node CREATED="1417467974151" ID="ID_1991586513" MODIFIED="1417468096709" TEXT="&#xbf;En qu&#xe9; consiste?">
 <node CREATED="1417540988345" ID="ID_533757228" MODIFIED="1417541140205" TEXT="El usuario comunica en voz alta sus opiniones mientras utiliza el sistema."/>
 <node CREATED="1417541205672" ID="ID_1562333203" MODIFIED="1417541218645" TEXT="Feedback sobre como el usuario se acerca al sistema."/>
@@ -226,65 +217,31 @@
 </node>
 </node>
 <node CREATED="1417467717390" ID="ID_1847443247" MODIFIED="1417468096703" TEXT="Interacci&#xf3;n constructiva">
-<node CREATED="1417467974151" ID="ID_674486260" MODIFIED="1417468096709" TEXT="&#xbf;En qu&#xe9; consiste?">
-<node CREATED="1417539244319" ID="ID_560817330" MODIFIED="1417539283940" TEXT="Mismo m&#xe9;todo que voz alta pero con dos personas haciendo el test conjuntamente"/>
-</node>
-<node CREATED="1417469407401" ID="ID_289368483" MODIFIED="1417469409548" TEXT="&#xbf;Qu&#xe9; requiere?">
-<node CREATED="1417539291110" ID="ID_1852331496" MODIFIED="1417539481297" TEXT="Dos personas"/>
-</node>
+<node CREATED="1417467974151" ID="ID_674486260" MODIFIED="1417468096709" TEXT="&#xbf;En qu&#xe9; consiste?"/>
+<node CREATED="1417469407401" ID="ID_289368483" MODIFIED="1417469409548" TEXT="&#xbf;Qu&#xe9; requiere?"/>
 <node CREATED="1417467997529" ID="ID_432160114" MODIFIED="1417468292000" STYLE="bubble" TEXT="Aplicaci&#xf3;n al proyecto">
 <edge COLOR="#00ff00"/>
-<node CREATED="1417539549075" ID="ID_1103798237" MODIFIED="1417539626440" TEXT="Se puede aplicar para observar las sensaciones de diferentes personas a la par"/>
 </node>
 </node>
 <node CREATED="1417467751318" ID="ID_788194918" MODIFIED="1417468096703" TEXT="Test retrospectivo">
-<node CREATED="1417467974151" ID="ID_594666877" MODIFIED="1417468096709" TEXT="&#xbf;En qu&#xe9; consiste?">
-<node CREATED="1417539716258" ID="ID_1391287985" MODIFIED="1417539724751" TEXT="Realizar una grabaci&#xf3;n del test"/>
-<node CREATED="1417539725305" ID="ID_1190127179" MODIFIED="1417539733485" TEXT="Observarla e intentar sacar conclusiones"/>
-<node CREATED="1417539777145" ID="ID_329669441" MODIFIED="1417539786646" TEXT="Para no interrumpir el test"/>
-</node>
-<node CREATED="1417469411233" ID="ID_415313337" MODIFIED="1417469413197" TEXT="&#xbf;Qu&#xe9; requiere?">
-<node CREATED="1417539797097" ID="ID_1665773816" MODIFIED="1417539863309" TEXT="Grabar el test"/>
-</node>
+<node CREATED="1417467974151" ID="ID_594666877" MODIFIED="1417468096709" TEXT="&#xbf;En qu&#xe9; consiste?"/>
+<node CREATED="1417469411233" ID="ID_415313337" MODIFIED="1417469413197" TEXT="&#xbf;Qu&#xe9; requiere?"/>
 <node CREATED="1417467997529" ID="ID_870352618" MODIFIED="1417468291999" STYLE="bubble" TEXT="Aplicaci&#xf3;n al proyecto">
 <edge COLOR="#00ff00"/>
-<node CREATED="1417539868552" ID="ID_1225897781" MODIFIED="1417539876110" TEXT="No se considera por ser demasiado engorroso"/>
 </node>
 </node>
 <node CREATED="1417467762385" ID="ID_1739110350" MODIFIED="1417468096704" TEXT="M&#xe9;todo del conductor (coaching method)">
-<node CREATED="1417467974151" ID="ID_634752313" MODIFIED="1417468096709" TEXT="&#xbf;En qu&#xe9; consiste?">
-<node CREATED="1417539965767" ID="ID_519356297" MODIFIED="1417539978312" TEXT="Interacci&#xf3;n expl&#xed;cita entre usuario y evaluador"/>
-<node CREATED="1417540002551" ID="ID_556793291" MODIFIED="1417540060900" TEXT="Se conduce al usuario en la direcci&#xf3;n correcta"/>
-<node CREATED="1417540061422" ID="ID_578984333" MODIFIED="1417540116610" TEXT="Se centra en el usuario inexperto"/>
-<node CREATED="1417540190197" ID="ID_1883866904" MODIFIED="1417540220410" TEXT="Buscar necesidades de informaci&#xf3;n"/>
-</node>
-<node CREATED="1417469416346" ID="ID_1776733542" MODIFIED="1417469418341" TEXT="&#xbf;Qu&#xe9; requiere?">
-<node CREATED="1417540119781" ID="ID_400073157" MODIFIED="1417540129379" TEXT="Un evaluador y un usuario inexperto"/>
-</node>
+<node CREATED="1417467974151" ID="ID_634752313" MODIFIED="1417468096709" TEXT="&#xbf;En qu&#xe9; consiste?"/>
+<node CREATED="1417469416346" ID="ID_1776733542" MODIFIED="1417469418341" TEXT="&#xbf;Qu&#xe9; requiere?"/>
 <node CREATED="1417467997529" ID="ID_1343981117" MODIFIED="1417468291999" STYLE="bubble" TEXT="Aplicaci&#xf3;n al proyecto">
 <edge COLOR="#00ff00"/>
-<node CREATED="1417540254012" ID="ID_1909795074" MODIFIED="1417540311176" TEXT="Podr&#xed;a ser adecuado pero dada la simplicidad del sistema, se consideran otros test similares"/>
 </node>
 </node>
 <node CREATED="1417467788976" ID="ID_508998311" MODIFIED="1417468096704" TEXT="Ordenaci&#xf3;n de tarjetas">
-<node CREATED="1417467974151" ID="ID_482171015" MODIFIED="1417468096709" TEXT="&#xbf;En qu&#xe9; consiste?">
-<node CREATED="1417540322563" ID="ID_931424964" MODIFIED="1417540322563" TEXT="">
-<node CREATED="1417540507345" ID="ID_1700124550" MODIFIED="1417540667653" TEXT="Paso 1: Determinar la lista de temas"/>
-<node CREATED="1417540511601" ID="ID_1635530222" MODIFIED="1417540676957" TEXT="Paso 2: Crear las tarjetas"/>
-<node CREATED="1417540514729" ID="ID_1565380276" MODIFIED="1417540687596" TEXT="Paso 3: Seleccionar a los participantes"/>
-<node CREATED="1417540517617" ID="ID_945408974" MODIFIED="1417540716069" TEXT="Paso 4: Proceder con la sesi&#xf3;n de ordenaci&#xf3;n"/>
-<node CREATED="1417540520017" ID="ID_369882948" MODIFIED="1417540728628" TEXT="Paso 5: Analizar las agrupaciones"/>
-</node>
-</node>
-<node CREATED="1417469419705" ID="ID_481661092" MODIFIED="1417469421936" TEXT="&#xbf;Qu&#xe9; requiere?">
-<node CREATED="1417540527233" ID="ID_1546908823" MODIFIED="1417540542222" TEXT="Usuarios finales para el test"/>
-<node CREATED="1417540542673" ID="ID_1835585841" MODIFIED="1417540548438" TEXT="Evaluadores"/>
-</node>
+<node CREATED="1417467974151" ID="ID_482171015" MODIFIED="1417468096709" TEXT="&#xbf;En qu&#xe9; consiste?"/>
+<node CREATED="1417469419705" ID="ID_481661092" MODIFIED="1417469421936" TEXT="&#xbf;Qu&#xe9; requiere?"/>
 <node CREATED="1417467997529" ID="ID_1885405973" MODIFIED="1417468291999" STYLE="bubble" TEXT="Aplicaci&#xf3;n al proyecto">
 <edge COLOR="#00ff00"/>
-<node CREATED="1417540462802" ID="ID_267778902" MODIFIED="1417540610558" TEXT="No ser&#xe1; aplicado"/>
-<node CREATED="1417540611144" ID="ID_977333152" MODIFIED="1417540628285" TEXT="Requiere mucho tiempo y personas para ser efectuado"/>
-<node CREATED="1417540628592" ID="ID_1736007795" MODIFIED="1417540650685" TEXT="Adem&#xe1;s, con la consulta a usuarios expertos tambi&#xe9;n se obtienen datos sobre ordenaci&#xf3;n"/>
 </node>
 </node>
 </node>
