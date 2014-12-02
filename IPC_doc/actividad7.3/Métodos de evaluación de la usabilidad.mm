@@ -42,6 +42,7 @@
 <node CREATED="1417467997529" ID="ID_1843519551" MODIFIED="1417468302155" STYLE="bubble" TEXT="Aplicaci&#xf3;n al proyecto">
 <edge COLOR="#00ff00"/>
 <node CREATED="1417470449729" ID="ID_1015623126" MODIFIED="1417470461203" TEXT="No la aplicar&#xed;amos al proyecto"/>
+<node CREATED="1417528340685" ID="ID_685216326" MODIFIED="1417528390666" TEXT="Los resultados de la prueba los podr&#xed;amos obtener mediante m&#xe9;todos como la observaci&#xf3;n de participantes"/>
 </node>
 </node>
 <node CREATED="1417466736776" ID="ID_1077167378" MODIFIED="1417468096710" TEXT="Recorrido de la usabilidad plural">
@@ -114,15 +115,25 @@
 </node>
 </node>
 <node CREATED="1417467034769" ID="ID_230473945" MODIFIED="1417468096712" TEXT="Entrevistas">
-<node CREATED="1417467974151" ID="ID_1285818215" MODIFIED="1417468096709" TEXT="&#xbf;En qu&#xe9; consiste?"/>
-<node CREATED="1417469381524" ID="ID_1851100592" MODIFIED="1417469383185" TEXT="&#xbf;Qu&#xe9; requiere?"/>
+<node CREATED="1417467974151" ID="ID_1285818215" MODIFIED="1417468096709" TEXT="&#xbf;En qu&#xe9; consiste?">
+<node CREATED="1417527872332" ID="ID_457711671" MODIFIED="1417528318162" TEXT="El entrevistador realiza preguntas al usuario para ver sus impresiones con el sistema y detectar posibles problemas de dise&#xf1;o no contemplados"/>
+<node CREATED="1417527931233" ID="ID_127270063" MODIFIED="1417527943335" TEXT="La entrevista puede ser estructurada o abierta"/>
+<node CREATED="1417527972713" ID="ID_1216172642" MODIFIED="1417528024762" TEXT="Para sacarle mayor partido debe estar preparada con antelaci&#xf3;n, teniendo en cuenta que el entrevistador podr&#xe1; modificar la entrevista seg&#xfa;n le parezca oportuno"/>
+</node>
+<node CREATED="1417469381524" ID="ID_1851100592" MODIFIED="1417469383185" TEXT="&#xbf;Qu&#xe9; requiere?">
+<node CREATED="1417527848270" ID="ID_309792573" MODIFIED="1417527866997" TEXT="Usuarios que hayan probado el sistema a evaluar"/>
+</node>
 <node CREATED="1417467997529" ID="ID_501787172" MODIFIED="1417468292000" STYLE="bubble" TEXT="Aplicaci&#xf3;n al proyecto">
 <edge COLOR="#00ff00"/>
+<node CREATED="1417528026793" ID="ID_1013882629" MODIFIED="1417528041640" TEXT="En cierta manera ya se aplic&#xf3; al proyecto"/>
+<node CREATED="1417528043002" ID="ID_243311944" MODIFIED="1417528113485" TEXT="Al realizar la pr&#xe1;ctica 1 de observaci&#xf3;n de participantes, realizamos algunas preguntas a los usuarios para detectar sus impresiones y descubrir nuevas necesidades para nuestro proyecto"/>
 </node>
 </node>
 <node CREATED="1417467044798" ID="ID_835868026" MODIFIED="1417468096712" TEXT="Cuestionarios">
 <node CREATED="1417467974151" ID="ID_17601508" MODIFIED="1417468096709" TEXT="&#xbf;En qu&#xe9; consiste?">
-<node CREATED="1417526210911" ID="ID_889184998" MODIFIED="1417526210911" TEXT=""/>
+<node CREATED="1417526210911" ID="ID_889184998" MODIFIED="1417528150872" TEXT="Se proporciona al usuario un test"/>
+<node CREATED="1417528152716" ID="ID_161279065" MODIFIED="1417528196791" TEXT="En el test se pueden incluir preguntas a contestar antes de realizar las tareas encomendadas (si hubiera alguna) para obtener informaci&#xf3;n sobre el usuario"/>
+<node CREATED="1417528199350" ID="ID_994853351" MODIFIED="1417528252980" TEXT="Algunas preguntas deben ser contestadas una vez que el usuario ha realizados las tareas encomendadas"/>
 </node>
 <node CREATED="1417469385896" ID="ID_651006413" MODIFIED="1417469387240" TEXT="&#xbf;Qu&#xe9; requiere?">
 <node CREATED="1417526109172" ID="ID_150532953" MODIFIED="1417526130280" TEXT="Elaborar una serie de preguntas que ser&#xe1;n respondidas por usuarios"/>
