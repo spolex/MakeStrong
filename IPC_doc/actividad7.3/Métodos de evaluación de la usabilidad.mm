@@ -209,7 +209,7 @@
 </node>
 <node CREATED="1417467997529" ID="ID_323467754" MODIFIED="1417468292000" STYLE="bubble" TEXT="Aplicaci&#xf3;n al proyecto">
 <edge COLOR="#00ff00"/>
-<node CREATED="1417541224143" ID="ID_997970524" MODIFIED="1417541342420" TEXT="Dada la simplicidad de este m&#xe9;todo es posible realizarlo para nuestro proyecto.De alguna manera ya realizada dado que cuando pedimos a nuestros compa&#xf1;eros que lo utilizasen nos iban dando feedback en voz alta."/>
+<node CREATED="1417541224143" ID="ID_997970524" MODIFIED="1417551908384" TEXT="Dada la simplicidad de este m&#xe9;todo es posible realizarlo para nuestro proyecto. En cierta manera ya se ha aplicado dado que cuando pedimos a nuestros compa&#xf1;eros que utilizasen una aplicaci&#xf3;n parecida nos iban dando feedback en voz alta."/>
 </node>
 </node>
 <node CREATED="1417467717390" ID="ID_1847443247" MODIFIED="1417468096703" TEXT="Interacci&#xf3;n constructiva">
@@ -221,7 +221,7 @@
 </node>
 <node CREATED="1417467997529" ID="ID_432160114" MODIFIED="1417468292000" STYLE="bubble" TEXT="Aplicaci&#xf3;n al proyecto">
 <edge COLOR="#00ff00"/>
-<node CREATED="1417539549075" ID="ID_1103798237" MODIFIED="1417539626440" TEXT="Se puede aplicar para observar las sensaciones de diferentes personas a la par"/>
+<node CREATED="1417539549075" ID="ID_1103798237" MODIFIED="1417551927621" TEXT="Se puede aplicar para observar las sensaciones de diferentes personas al mismo tiempo"/>
 </node>
 </node>
 <node CREATED="1417467751318" ID="ID_788194918" MODIFIED="1417468096703" TEXT="Test retrospectivo">
