@@ -42,7 +42,6 @@
 <node CREATED="1417467997529" ID="ID_1843519551" MODIFIED="1417468302155" STYLE="bubble" TEXT="Aplicaci&#xf3;n al proyecto">
 <edge COLOR="#00ff00"/>
 <node CREATED="1417470449729" ID="ID_1015623126" MODIFIED="1417470461203" TEXT="No la aplicar&#xed;amos al proyecto"/>
-<node CREATED="1417470463624" ID="ID_792888331" MODIFIED="1417470516321" TEXT="Requiere mucho trabajo para ser llevada a cabo y ofrecer&#xed;a resultados similares a los de la observaci&#xf3;n de participantes ya realizada al inicio del proyecto"/>
 </node>
 </node>
 <node CREATED="1417466736776" ID="ID_1077167378" MODIFIED="1417468096710" TEXT="Recorrido de la usabilidad plural">
@@ -55,18 +54,30 @@
 <node CREATED="1417469359945" ID="ID_1200285632" MODIFIED="1417469361910" TEXT="&#xbf;Qu&#xe9; requiere?">
 <node CREATED="1417470883454" ID="ID_1918443903" MODIFIED="1417470889900" TEXT="Prototipo de papel"/>
 </node>
-<node CREATED="1417467997529" ID="ID_442657081" MODIFIED="1417468302155" STYLE="bubble" TEXT="Aplicaci&#xf3;n al proyecto">
+<node CREATED="1417467997529" ID="ID_442657081" MODIFIED="1417524406342" STYLE="bubble" TEXT="Aplicaci&#xf3;n al proyecto">
 <edge COLOR="#00ff00"/>
 <node CREATED="1417470938138" ID="ID_1757087292" MODIFIED="1417470977667" TEXT="Resultar&#xed;a interesante haberla aplicado previo a la realizaci&#xf3;n del prototipo digital"/>
+<node CREATED="1417470463624" ID="ID_792888331" MODIFIED="1417470516321" TEXT="Requiere mucho trabajo para ser llevada a cabo y ofrecer&#xed;a resultados similares a los de la observaci&#xf3;n de participantes ya realizada al inicio del proyecto"/>
 <node CREATED="1417470979675" ID="ID_911361559" MODIFIED="1417471021247" TEXT="De esta forma se habr&#xed;an encontrado formas m&#xe1;s id&#xf3;neas de implementar la realizaci&#xf3;n de tareas como a&#xf1;adir un entrenamiento"/>
 <node CREATED="1417471024600" ID="ID_196889811" MODIFIED="1417471078110" TEXT="Significar&#xed;a invertir m&#xe1;s tiempo previo al desarrollo del prototipo digital asegurando que el siguiente prototipo requerir&#xe1; menos cambios"/>
 </node>
 </node>
 <node CREATED="1417466760408" ID="ID_385910394" MODIFIED="1417468096710" TEXT="Inspecci&#xf3;n de est&#xe1;ndares">
-<node CREATED="1417467974151" ID="ID_1953523891" MODIFIED="1417468096709" TEXT="&#xbf;En qu&#xe9; consiste?"/>
-<node CREATED="1417469363822" ID="ID_1183368520" MODIFIED="1417469365065" TEXT="&#xbf;Qu&#xe9; requiere?"/>
+<node CREATED="1417467974151" ID="ID_1953523891" MODIFIED="1417468096709" TEXT="&#xbf;En qu&#xe9; consiste?">
+<node CREATED="1417524588050" ID="ID_1033974761" MODIFIED="1417524604020" TEXT="Evaluar la interfaz contra un est&#xe1;ndar ya definido"/>
+<node CREATED="1417524839176" ID="ID_1230454964" MODIFIED="1417524862349" TEXT="Los est&#xe1;ndares pueden ser de hecho o de facto"/>
+<node CREATED="1417524871856" ID="ID_1958988536" MODIFIED="1417524945727" TEXT="De hecho: creados por un comit&#xe9; con apoyo de gobierno o instituciones (ISO, ANSI, IEEE, W3C)"/>
+<node CREATED="1417524949436" ID="ID_1219614468" MODIFIED="1417525004449" TEXT="De facto: nacen a partir de productuos a investigaciones. Ejemplo: entorno de ventanas"/>
+</node>
+<node CREATED="1417469363822" ID="ID_1183368520" MODIFIED="1417469365065" TEXT="&#xbf;Qu&#xe9; requiere?">
+<node CREATED="1417525020741" ID="ID_1994929165" MODIFIED="1417525032513" TEXT="Posible con prototipos de baja fidelidad"/>
+<node CREATED="1417525034637" ID="ID_279324449" MODIFIED="1417525065150" TEXT="A ser posible, prototipo de software o versi&#xf3;n preliminar del sistema"/>
+</node>
 <node CREATED="1417467997529" ID="ID_571947958" MODIFIED="1417468302155" STYLE="bubble" TEXT="Aplicaci&#xf3;n al proyecto">
 <edge COLOR="#00ff00"/>
+<node CREATED="1417525077252" ID="ID_646185302" MODIFIED="1417525093884" TEXT="No aplicar&#xed;amos este tipo de evaluaci&#xf3;n"/>
+<node CREATED="1417525096453" ID="ID_1576335466" MODIFIED="1417525156931" TEXT="Por el tema de la aplicaci&#xf3;n, resultar&#xed;a dif&#xed;cil encontrar un est&#xe1;ndar adecuado al proyecto"/>
+<node CREATED="1417525160505" ID="ID_109062108" MODIFIED="1417525294568" TEXT="Sin embargo, a la hora de dise&#xf1;ar se tienen en cuenta algunos requisitos de usabilidad y accesibilidad definidos en est&#xe1;ndares como la norma WCAG del W3C"/>
 </node>
 </node>
 </node>
@@ -80,10 +91,19 @@
 </node>
 <node CREATED="1417466989093" ID="ID_1219599817" MODIFIED="1417468096711" STYLE="fork" TEXT="M&#xe9;todos:">
 <node CREATED="1417467009376" ID="ID_294466117" MODIFIED="1417468096711" TEXT="Observaci&#xf3;n de campo">
-<node CREATED="1417467974151" ID="ID_1291807489" MODIFIED="1417468096709" TEXT="&#xbf;En qu&#xe9; consiste?"/>
-<node CREATED="1417469367893" ID="ID_107083373" MODIFIED="1417469369259" TEXT="&#xbf;Qu&#xe9; requiere?"/>
+<node CREATED="1417467974151" ID="ID_1291807489" MODIFIED="1417525501203" TEXT="&#xbf;En qu&#xe9; consiste?">
+<node CREATED="1417525421436" ID="ID_617014642" MODIFIED="1417525447487" TEXT="Observar como los usuarios realizan tareas en un sistema"/>
+<node CREATED="1417525451036" ID="ID_841557848" MODIFIED="1417525495976" TEXT="Realizar preguntas a los mismos para obtener los datos necesarios"/>
+<node CREATED="1417525502480" ID="ID_854879183" MODIFIED="1417525651159" TEXT="Antes de realizar el m&#xe9;todo, se escogen los usuarios y se enumeran las preguntas a contestar"/>
+</node>
+<node CREATED="1417469367893" ID="ID_107083373" MODIFIED="1417469369259" TEXT="&#xbf;Qu&#xe9; requiere?">
+<node CREATED="1417525392463" ID="ID_1127625199" MODIFIED="1417525414124" TEXT="Una aplicaci&#xf3;n que los usuarios a observar puedan utilizar"/>
+</node>
 <node CREATED="1417467997529" ID="ID_942029326" MODIFIED="1417468302154" STYLE="bubble" TEXT="Aplicaci&#xf3;n al proyecto">
 <edge COLOR="#00ff00"/>
+<node CREATED="1417525678748" ID="ID_321030297" MODIFIED="1417525709783" TEXT="El m&#xe9;todo ya se ha aplicado en la pr&#xe1;ctica 1 de &quot;observaci&#xf3;n de participantes&quot;"/>
+<node CREATED="1417525711732" ID="ID_679911306" MODIFIED="1417525792699" TEXT="Haciendo a los usuarios realizar ciertas tareas en un sistema ya desarrollado, se consigue obtener necesidades que deben ser cubiertas en el proyecto a desarrollar"/>
+<node CREATED="1417525819104" ID="ID_1069512297" MODIFIED="1417525861916" TEXT="Al aplicarlo se obtienen requisitos a cubrir que mejorar&#xe1;n la experiencia de los usuarios al usar nuestro sistema"/>
 </node>
 </node>
 <node CREATED="1417467017651" ID="ID_736151654" MODIFIED="1417468096711" TEXT="Grupos de discusi&#xf3;n dirigidos">
@@ -101,10 +121,18 @@
 </node>
 </node>
 <node CREATED="1417467044798" ID="ID_835868026" MODIFIED="1417468096712" TEXT="Cuestionarios">
-<node CREATED="1417467974151" ID="ID_17601508" MODIFIED="1417468096709" TEXT="&#xbf;En qu&#xe9; consiste?"/>
-<node CREATED="1417469385896" ID="ID_651006413" MODIFIED="1417469387240" TEXT="&#xbf;Qu&#xe9; requiere?"/>
+<node CREATED="1417467974151" ID="ID_17601508" MODIFIED="1417468096709" TEXT="&#xbf;En qu&#xe9; consiste?">
+<node CREATED="1417526210911" ID="ID_889184998" MODIFIED="1417526210911" TEXT=""/>
+</node>
+<node CREATED="1417469385896" ID="ID_651006413" MODIFIED="1417469387240" TEXT="&#xbf;Qu&#xe9; requiere?">
+<node CREATED="1417526109172" ID="ID_150532953" MODIFIED="1417526130280" TEXT="Elaborar una serie de preguntas que ser&#xe1;n respondidas por usuarios"/>
+<node CREATED="1417526146445" ID="ID_449655502" MODIFIED="1417526194431" TEXT="En &#xe9;l se pueden incluir varios tipos de preguntas: de car&#xe1;cter general, prguntas abiertas y de tipo escalar"/>
+</node>
 <node CREATED="1417467997529" ID="ID_309737159" MODIFIED="1417468292000" STYLE="bubble" TEXT="Aplicaci&#xf3;n al proyecto">
 <edge COLOR="#00ff00"/>
+<node CREATED="1417525911673" ID="ID_629031143" MODIFIED="1417525931414" TEXT="Recurrimos a este m&#xe9;todo a la hora de realizar la pr&#xe1;ctica 3a"/>
+<node CREATED="1417525933357" ID="ID_1812186212" MODIFIED="1417526027955" TEXT="Mediante un cuestionario, preguntamos a usuarios potenciales de la aplicaci&#xf3;n sobre la estructuraci&#xf3;n de contenido que deb&#xed;amos realizar en los men&#xfa;s de la p&#xe1;gina"/>
+<node CREATED="1417526032932" ID="ID_1654043903" MODIFIED="1417526071138" TEXT="Como resultado, se modific&#xf3; el dise&#xf1;o preliminar realizado antes de analizar las respuestas de la encuesta"/>
 </node>
 </node>
 <node CREATED="1417467056575" ID="ID_1187170067" MODIFIED="1417468096712" TEXT="Registro de uso (logging)">
