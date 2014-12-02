@@ -120,22 +120,9 @@
 </node>
 <node CREATED="1417467997529" ID="ID_1186868765" MODIFIED="1417468292000" STYLE="bubble" TEXT="Aplicaci&#xf3;n al proyecto">
 <edge COLOR="#00ff00"/>
-<node CREATED="1417467974151" ID="ID_421901363" MODIFIED="1417539591274" TEXT="&#xbf;En qu&#xe9; consiste?">
-<node CREATED="1417539067777" ID="ID_228472807" MODIFIED="1417539514810" TEXT="Reuni&#xf3;nes estructuradas de implicados y usuarios representativos"/>
-<node CREATED="1417539354163" ID="ID_276352867" MODIFIED="1417539400355" TEXT="Recoger en un resumen el flujo libre de ideas sobre el proyecto">
-<node CREATED="1417539604228" ID="ID_1925332188" MODIFIED="1417539685425" TEXT="Dificil an&#xe1;lisis de la informaci&#xf3;n desestructurada"/>
-</node>
-</node>
-<node CREATED="1417469376861" ID="ID_1836883073" MODIFIED="1417539770337" TEXT="&#xbf;Qu&#xe9; requiere?">
-<node CREATED="1417539595452" HGAP="37" ID="ID_291456648" MODIFIED="1417539722874" TEXT="Moderador" VSHIFT="-13"/>
-<node CREATED="1417539604228" ID="ID_1981939774" MODIFIED="1417539765960" TEXT="An&#xe1;lisis de la informaci&#xf3;n desestructurada"/>
-</node>
-<node CREATED="1417467997529" ID="ID_156558477" MODIFIED="1417468292000" STYLE="bubble" TEXT="Aplicaci&#xf3;n al proyecto">
-<edge COLOR="#00ff00"/>
 <node CREATED="1417539777235" ID="ID_673663031" MODIFIED="1417539884055" TEXT="Este m&#xe9;todo no es aplicable"/>
 <node CREATED="1417539802898" ID="ID_261078889" MODIFIED="1417539849359" TEXT="Debido a que es necesario reunir en diferentes sesiones usuarios representativos, este m&#xe9;todo lo hemos considerado no viable"/>
 <node CREATED="1417539908793" ID="ID_1370456446" MODIFIED="1417539965949" TEXT="Para ser capaz de moderar este tipo de sesiones son necesarias destrezas especificas y experiencia."/>
-</node>
 </node>
 </node>
 <node CREATED="1417467034769" ID="ID_230473945" MODIFIED="1417468096712" TEXT="Entrevistas">
@@ -175,8 +162,8 @@
 <node CREATED="1417540109616" ID="ID_714407069" MODIFIED="1417540154565" TEXT="Grabar las acciones de usuario sobre el sistema."/>
 </node>
 <node CREATED="1417469390615" ID="ID_343375407" MODIFIED="1417469393398" TEXT="&#xbf;Qu&#xe9; requiere?">
-<node CREATED="1417540163191" ID="ID_110150639" MODIFIED="1417540190908" TEXT="Segunda aplicaci&#xf3;n capar de registrar las acciones."/>
-<node CREATED="1417540345150" ID="ID_592865421" MODIFIED="1417540374578" TEXT="Cambiar drivers del sistema,p.e registrar los movimientos del raton."/>
+<node CREATED="1417540163191" ID="ID_110150639" MODIFIED="1417551806106" TEXT="Segunda aplicaci&#xf3;n capaz de registrar las acciones."/>
+<node CREATED="1417540345150" ID="ID_592865421" MODIFIED="1417551819556" TEXT="Cambiar drivers del sistema,p.ej: registrar los movimientos del raton."/>
 </node>
 <node CREATED="1417467997529" ID="ID_1885793129" MODIFIED="1417468292000" STYLE="bubble" TEXT="Aplicaci&#xf3;n al proyecto">
 <edge COLOR="#00ff00"/>
