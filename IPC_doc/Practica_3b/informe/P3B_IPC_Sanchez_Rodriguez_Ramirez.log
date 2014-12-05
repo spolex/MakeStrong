@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2014.2.3)  27 NOV 2014 15:43
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2014.2.3)  5 DEC 2014 13:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -949,44 +949,49 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 \tf@toc=\write5
 \openout5 = `P3B_IPC_Sanchez_Rodriguez_Ramirez.toc'.
 
- [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 91.
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+ [2]pdfTeX warning (ext4): destination with the same identifier (name{page.1}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.109 \section
+              {Valoración grupal} [1]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 111.
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.91 \end{document}
-                    [1]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 91.
+l.111 \end{document}
+                     [2]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 111.
  (./P3B_IPC_Sanchez_Rodriguez_Ramirez.aux
 LaTeX Info: Redefining \. on input line 21.
 LaTeX Info: Redefining \% on input line 21.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 91.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 91.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 111.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 111.
 Package rerunfilecheck Info: File `P3B_IPC_Sanchez_Rodriguez_Ramirez.out' has n
 ot changed.
 (rerunfilecheck)             Checksum: EE6485EF68A732BF19514327617EC6CB;520.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 91.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 111.
  ) 
 Here is how much of TeX's memory you used:
- 15679 strings out of 495062
- 277947 string characters out of 3182745
- 346281 words of memory out of 3000000
- 18526 multiletter control sequences out of 15000+200000
+ 15684 strings out of 495062
+ 278013 string characters out of 3182745
+ 352281 words of memory out of 3000000
+ 18531 multiletter control sequences out of 15000+200000
  56219 words of font info for 44 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 56i,11n,57p,453b,339s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 56i,11n,57p,591b,339s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf-dist/fo
 nts/type1/public/lm/lmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmb
 x12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texm
 f-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/publi
 c/lm/lmr17.pfb>
-Output written on P3B_IPC_Sanchez_Rodriguez_Ramirez.pdf (3 pages, 134888 bytes)
+Output written on P3B_IPC_Sanchez_Rodriguez_Ramirez.pdf (4 pages, 143013 bytes)
 .
 PDF statistics:
- 88 PDF objects out of 1000 (max. 8388607)
- 77 compressed objects within 1 object stream
+ 91 PDF objects out of 1000 (max. 8388607)
+ 79 compressed objects within 1 object stream
  12 named destinations out of 1000 (max. 500000)
  77 words of extra memory for PDF output out of 10000 (max. 10000000)
 
