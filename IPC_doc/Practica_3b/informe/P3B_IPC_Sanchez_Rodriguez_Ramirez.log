@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2014.2.3)  7 DEC 2014 21:08
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2014.2.3)  7 DEC 2014 21:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1016,7 +1016,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 159.
 Here is how much of TeX's memory you used:
  15707 strings out of 495062
  278522 string characters out of 3182745
- 353281 words of memory out of 3000000
+ 353336 words of memory out of 3000000
  18546 multiletter control sequences out of 15000+200000
  56219 words of font info for 44 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -1026,7 +1026,7 @@ nts/type1/public/lm/lmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmb
 x12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texm
 f-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/publi
 c/lm/lmr17.pfb>
-Output written on P3B_IPC_Sanchez_Rodriguez_Ramirez.pdf (8 pages, 207802 bytes)
+Output written on P3B_IPC_Sanchez_Rodriguez_Ramirez.pdf (8 pages, 208512 bytes)
 .
 PDF statistics:
  148 PDF objects out of 1000 (max. 8388607)
