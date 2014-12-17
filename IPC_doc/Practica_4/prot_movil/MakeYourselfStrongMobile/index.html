@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Make Yourself Strong</title>
+    <meta name="description" content="Tako framework for mobile webapps">
+    <meta name="author" content="David Ramirez">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="cleartype" content="on">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="HandheldFriendly" content="True">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <meta http-equiv="x-ua-compatible" content="IE=edge" />
+
+    <link rel="stylesheet" href="stylesheets/tako.css">
+    <link rel="stylesheet" href="stylesheets/tako.theme.css">
+    <link rel="stylesheet" href="stylesheets/tako.android.css">
+    <link rel="stylesheet" href="stylesheets/tako.ios.css">
+    <link rel="stylesheet" href="stylesheets/tako.wp.css">
+    <link rel="stylesheet" href="stylesheets/tako.firefoxos.css">
+</head>
+
+<body class="noflat">
+    <article id="article_1" data-animation="slide" class="">
+
+        <footer>
+          <nav>
+            <button class="wide" onclick="redireccionar('http://www.takojs.com')"><span>Powered by: Takojs</span><img class="small" src="http://www.takojs.com/assets/img/tako-logo.png" alt=""></button>
+          </nav>
+        </footer>
+        
+        <section id="main" class="centered" data-animation="slide">
+            <div>
+                <h1>Make Yourself Strong Mobile</h1>
+
+                <div class="form">
+                    <fieldset>
+                        <label class="input" for="nickname">Nombre de usuario:</label>
+                        <input type="text" id="nickname">
+                        <label class="input" for="password">Contraseña:</label>
+                        <input type="password" id="password">
+                        <input type="checkbox" id="square" class="square">
+                        <label for="square">Recordarme</label>
+                        <button class="wide" onclick="redireccionar('Iniciando.html')">Iniciar sesión</button>
+                    </fieldset>
+                </div>
+            </div>
+            <script language="JavaScript" type="text/javascript">
+                function redireccionar(pagina) 
+                {
+                location.href=pagina
+                } 
+            </script>
+        </section>
+    </article>
+
+
+    <script src="js/tako.components.js"></script>
+    <script src="js/tako.debug.js"></script>
+    <script>
+        Tako.onReady(function(){
+            console.log("READY");
+            window.puller = Tako.Pull_Refresh("pullrefresh", {onRefresh:function(){
+                setTimeout(function(){
+                    alert("Refresh finished");
+                    puller.hide()}, 3000);
+            }});
+            $("#forms").on("load", function(){console.log("FORMS LOADED")});
+            $("#buttons").on("load", function(){console.log("BUTTONS LOADED")});
+            $("#forms").on("unload", function(){console.log("FORMS UNLOADED")});
+
+            $("[data-back]").on("click", function(){
+                Tako.Article("article_1", true);
+            });
+            // Tako.Section("notifications");
+            // Tako.Section("buttons");
+            // Tako.Section("colors");
+        });
+
+        Tako.init({
+            articles     : ["article2.html"],
+            logging      : Tako.logging.LOG,
+            urlNavigation: true
+        });
+        $("#show_success").bind("tap", function(){
+            Tako.Notification.success("ok", "Success!!","Everything worked fine", null, function(){console.log("SUCCESS CB");})
+        });
+        $("#show_error").bind("tap", function(){
+            Tako.Notification.error("deny", "Error!!","Something went wrong", null, function(){console.log("ERROR CB");})
+        });
+        $("#show_confirm").bind("tap", function(){
+            Tako.Notification.confirm("help-circled", "Question", "Do you like TaKos", "Of course", "Not much", function(result){
+                if(result){
+                    alert("I know you like them!!");
+                    console.log("I know you like them!!");
+                }else{
+                    alert("Well, I hope at least you like our TaKo");
+                    console.log("Well, I hope at least you like our TaKo");
+                }
+            })
+        });
+        $("#show_custom").bind("tap", function(){
+            Tako.Notification.custom("Custom", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tempus auctor convallis. Aliquam eget ipsum a velit pulvinar elementum vitae non dolor. Nullam dui metus, tincidunt non dolor eu, laoreet auctor tellus. Suspendisse vestibulum scelerisque nibh non scelerisque. Cras eget lobortis orci. Vestibulum ultrices enim mattis fermentum tristique. Nunc ultricies feugiat tellus, ut facilisis est dignissim nec. Vivamus molestie sem vel euismod vestibulum.", true, "", null, function(){console.log("Fin de custom")});
+        });
+        $("#show_loading").bind("tap", function(){
+            Tako.Notification.loading("Loading", 5, function(){console.log("LOADING CB");})
+        });
+        $("#show_progress").bind("tap", function(){
+            var progress = Tako.Notification.progress("spin1 animated", "Downloading", "Please wait until your download is completed");
+            setTimeout(function(){progress.percent(20)},1000);
+            setTimeout(function(){progress.percent(60)},2500);
+            setTimeout(function(){progress.percent(100)},4500);
+        });
+        window.logger = function(){
+            console.log.apply(console, arguments)
+        };
+    </script>
+    <!-- <script src="http://192.168.2.110:8080/target/target-script-min.js"></script> -->
+</body>
+</html>
