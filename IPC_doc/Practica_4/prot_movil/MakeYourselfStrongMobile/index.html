@@ -44,7 +44,8 @@
                         <input type="password" id="password">
                         <input type="checkbox" id="square" class="square">
                         <label for="square">Recordarme</label>
-                        <button class="wide" onclick="redireccionar('Iniciando.html')">Iniciar sesión</button>
+                        <!--<button class="wide" onclick="redireccionar('Iniciando.html')">Iniciar sesión</button>-->
+                        <button class="wide" onclick="Tako.Notification.loading('Iniciando', 2, function(){redireccionar('PerfilUsuario.html')});">Iniciar sesión</button>
                     </fieldset>
                 </div>
             </div>

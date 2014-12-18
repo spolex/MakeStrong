@@ -50,7 +50,8 @@
         
 
 
-        <section id="principal" class="indented" data-animation="cover">
+        <section id="principal" class="intended" data-animation="slide">
+        <div>
             <ul>
                 <li class="separator" style="color:black;"><strong>Resumen del día</strong></li>
                
@@ -95,6 +96,7 @@
                 <li class="separator" style="color:black;"><strong>Recomendación de hoy</strong></li>
                 <li>Día de descanso</li>
             </ul>
+        </div>
         </section>
 
         <section id="objetivos" class="indented" data-animation="slide">
@@ -121,7 +123,7 @@
                             <option value="elem4">Muy activo</option>
                         </select>
                     </label>
-                    <button class="wide accept">Actualizar objetivos</button>
+                    <button class="wide accept" onClick="Tako.Notification.success('ok', 'Éxito','Se han actualizado tus objetivos. Consulta los nuevos objetivos nutricionales recomendados', null, function(){console.log('SUCCESS CB');});">Actualizar objetivos</button>
                 </fieldset>
             </form>
             <br></br>
@@ -170,7 +172,7 @@
                                 <option value="elem2">Bajo</option>
                             </select>
                         </label>
-                    <button class="wide accept">Actualizar datos</button>
+                    <button class="wide accept" onClick="Tako.Notification.error('deny', 'Error','No se pudo actualizar la información de tu perfil, comprueba tu conexión a internet o inténtalo más tarde', null, function(){console.log('ERROR CB');})">Actualizar datos</button>
                 </fieldset>
 
                 <br>
@@ -208,7 +210,7 @@
                             <option value="elem3">ml</option>
                         </select>
                     </label>
-                    <button class="wide accept">Actualizar unidades</button>
+                    <button class="wide accept" onClick="Tako.Notification.success('ok', 'Éxito','Se han actualizado tus unidades de medida', null, function(){console.log('SUCCESS CB');});">Actualizar unidades</button>
                 </fieldset>
 
                 <br>
@@ -216,7 +218,22 @@
                 <fieldset>
                     <legend>Desconectar sesión</legend>
                     <label>Cierra tu sesión en este dispositivo</label>
-                    <button class="wide accept">Cerrar sesión</button>
+                    <button class="wide accept" onClick="cerrar();">Cerrar sesión</button>
+                    <script type="text/javascript">
+                        function cerrar()
+                        {
+                            Tako.Notification.confirm("help-circled", "Cerrar sesión", "¿Seguro que quieres cerrar sesión?", "Cerrar sesión", "Cancelar", function(result){
+                                if(result){
+                                    redireccionar('index.html');
+                                }
+                            });
+                        }
+
+                        function redireccionar(pagina) 
+                        {
+                        location.href=pagina
+                        } 
+                    </script>
 
                 </fieldset>
             </form>
@@ -237,23 +254,28 @@
         </nav>
 
         <section id="evolucion-princ" class="centered">
-           <p><strong>En esta sección puedes consultar tu progreso <br> Selecciona una de las pestañas</strong></p>
+           <p class="align-center"><strong>En esta sección puedes consultar tu progreso <br> Selecciona una de las pestañas</strong></p>
         </section>
 
-        <section id="peso-graf" class="indented">
-            
-                <h2>Evolución del peso</h2>
+        <section id="peso-graf" class="align-center">
                 <nav>
                     <button>1 mes</button>
                     <button>2 meses</button>
+                    <button>3 meses</button>
+                    <button>6 meses</button>
                 </nav>
             <div id="grafc-peso" style="height:300px;">
 
             </div>
         </section>
 
-        <section id="entrenamientos-graf" class="indented">
-            entren
+        <section id="entrenamientos-graf" class="align-center">
+                <nav>
+                    <button>1 mes</button>
+                    <button>2 meses</button>
+                    <button>3 meses</button>
+                    <button>6 meses</button>
+                </nav>
         </section>
     </article>
 
@@ -271,29 +293,33 @@
         </nav>
 
         <section id="recibidos">
-            <ul>
-                <li data-section="correo" class="icon eye-off"><strong>Aitor</strong><small>RE: Lorem ipsum</small></li>
-                <li data-section="correo" class="icon eye-off"><strong>Aitor</strong><small>RE: Lorem ipsum</small></li>
-                <li data-section="correo" class="icon eye"><strong>Aitor</strong><small>RE: Lorem ipsum</small></li>
-                <li data-section="correo" class="icon eye"><strong>Aitor</strong><small>RE: Lorem ipsum</small></li>
-                <li data-section="correo" class="icon eye"><strong>Aitor</strong><small>RE: Lorem ipsum</small></li>
-                <li data-section="correo" class="icon eye"><strong>Aitor</strong><small>RE: Lorem ipsum</small></li>
-                <li data-section="correo" class="icon eye"><strong>Aitor</strong><small>RE: Lorem ipsum</small></li>
-                <li data-section="correo" class="icon eye"><strong>Aitor</strong><small>RE: Lorem ipsum</small></li>
-            </ul>   
+            <div>
+                <ul>
+                    <li data-section="correo" class="icon eye-off"><strong>Aitor</strong><small>RE: Lorem ipsum</small></li>
+                    <li data-section="correo" class="icon eye-off"><strong>Aitor</strong><small>RE: Lorem ipsum</small></li>
+                    <li data-section="correo" class="icon eye"><strong>Aitor</strong><small>RE: Lorem ipsum</small></li>
+                    <li data-section="correo" class="icon eye"><strong>Aitor</strong><small>RE: Lorem ipsum</small></li>
+                    <li data-section="correo" class="icon eye"><strong>Aitor</strong><small>RE: Lorem ipsum</small></li>
+                    <li data-section="correo" class="icon eye"><strong>Aitor</strong><small>RE: Lorem ipsum</small></li>
+                    <li data-section="correo" class="icon eye"><strong>Aitor</strong><small>RE: Lorem ipsum</small></li>
+                    <li data-section="correo" class="icon eye"><strong>Aitor</strong><small>RE: Lorem ipsum</small></li>
+                </ul>  
+            </div> 
         </section>
 
         <section id="enviados">
-            <ul>
-                <li data-section="correo-env" class="icon eye"><strong>Pepe</strong><small>Lorem ipsum</small></li>
-                <li data-section="correo-env" class="icon eye"><strong>Pepe</strong><small>Lorem ipsum</small></li>
-                <li data-section="correo-env" class="icon eye"><strong>Pepe</strong><small>Lorem ipsum</small></li>
-                <li data-section="correo-env" class="icon eye"><strong>Pepe</strong><small>Lorem ipsum</small></li>
-                <li data-section="correo-env" class="icon eye"><strong>Pepe</strong><small>Lorem ipsum</small></li>
-                <li data-section="correo-env" class="icon eye"><strong>Pepe</strong><small>Lorem ipsum</small></li>
-                <li data-section="correo-env" class="icon eye"><strong>Pepe</strong><small>Lorem ipsum</small></li>
-                <li data-section="correo-env" class="icon eye"><strong>Pepe</strong><small>Lorem ipsum</small></li>
-            </ul>
+            <div>
+                <ul>
+                    <li data-section="correo-env" class="icon eye"><strong>Pepe</strong><small>Lorem ipsum</small></li>
+                    <li data-section="correo-env" class="icon eye"><strong>Pepe</strong><small>Lorem ipsum</small></li>
+                    <li data-section="correo-env" class="icon eye"><strong>Pepe</strong><small>Lorem ipsum</small></li>
+                    <li data-section="correo-env" class="icon eye"><strong>Pepe</strong><small>Lorem ipsum</small></li>
+                    <li data-section="correo-env" class="icon eye"><strong>Pepe</strong><small>Lorem ipsum</small></li>
+                    <li data-section="correo-env" class="icon eye"><strong>Pepe</strong><small>Lorem ipsum</small></li>
+                    <li data-section="correo-env" class="icon eye"><strong>Pepe</strong><small>Lorem ipsum</small></li>
+                    <li data-section="correo-env" class="icon eye"><strong>Pepe</strong><small>Lorem ipsum</small></li>
+                </ul>
+            </div>
         </section>
 
         <section id="correo" class="indented">
@@ -361,10 +387,20 @@
     <script>
         Tako.onReady(function(){
             console.log("READY");
-            window.puller = Tako.Pull_Refresh("pullrefresh", {onRefresh:function(){
+            window.puller = Tako.Pull_Refresh("principal", {onRefresh:function(){
                 setTimeout(function(){
-                    alert("Refresh finished");
+                    //alert("Refresh finished");
                     puller.hide()}, 3000);
+            }});
+            window.puller2 = Tako.Pull_Refresh("recibidos", {onRefresh:function(){
+                setTimeout(function(){
+                    //alert("Refresh finished");
+                    puller2.hide()}, 3000);
+            }});
+            window.puller3 = Tako.Pull_Refresh("enviados", {onRefresh:function(){
+                setTimeout(function(){
+                    //alert("Refresh finished");
+                    puller3.hide()}, 3000);
             }});
             $("#forms").on("load", function(){console.log("FORMS LOADED")});
             $("#buttons").on("load", function(){console.log("BUTTONS LOADED")});
@@ -379,7 +415,6 @@
         });
 
         Tako.init({
-            articles     : ["article2.html"],
             logging      : Tako.logging.LOG,
             urlNavigation: true
         });

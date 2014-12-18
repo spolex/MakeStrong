@@ -1,0 +1,456 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Make Yourself Strong</title>
+    <meta name="description" content="Make Yourself Strong Mobile">
+    <meta name="author" content="David Ramirez">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="cleartype" content="on">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="HandheldFriendly" content="True">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <meta http-equiv="x-ua-compatible" content="IE=edge" />
+
+    <link rel="stylesheet" href="stylesheets/tako.css">
+    <link rel="stylesheet" href="stylesheets/tako.theme.css">
+    <link rel="stylesheet" href="stylesheets/tako.android.css">
+    <link rel="stylesheet" href="stylesheets/tako.ios.css">
+    <link rel="stylesheet" href="stylesheets/tako.wp.css">
+    <link rel="stylesheet" href="stylesheets/tako.firefoxos.css">
+</head>
+
+<body class="noflat" data-os="firefoxos">
+
+    <aside class="full">
+        <header>
+            <h1>Menú</h1>
+        </header>
+        <ul>
+            <li data-section="principal" class="icon home">Principal</li>
+            <li data-section="objetivos" class="icon bookmark">Objetivos</li>
+            <li data-section="evolucion-princ" class="icon search">Evolución</li>
+            <li data-section="entrenamientos" class="icon heart">Entrenamientos</li>
+            <li data-section="nutricion" class="icon food">Nutrición</li>
+            <li data-section="recibidos" class="icon mail">Mensajes <span class="counter">2</span></li>
+            <li data-section="preferencias" class="icon cog">Preferencias</li>
+        </ul>
+    </aside>
+
+    <article id="article_1" data-animation="slide" class="">
+        <header>
+            <nav class="left">
+                <button class="button icon menu" data-action="aside"></button>
+            </nav>
+            <h1>Make Yourself Strong</h1>
+        </header>
+        
+
+
+        <section id="principal" class="intended" data-animation="slide">
+        <div>
+            <ul>
+                <li class="separator" style="color:black;"><strong>Resumen del día</strong></li>
+               
+                <div class="horizontal grid">
+                    <div class="box_0">
+                        <ul>
+                            <li>Recomendado:</li>
+                            <li>Ingeridas:</li>
+                            <li>Consumidas:</li>
+                            <li><strong>Restantes:</strong></li>
+                        </ul>
+                    </div>
+                    <div class="box_0">
+                        <ul>
+                            <li>2000 kcal</li>
+                            <li>1250 kcal</li>
+                            <li>250 kcal</li>
+                            <li><strong>1000 kcal</strong></li>
+                        </ul>
+                    </div>
+                </div>
+            </ul>
+            <br>
+            <ul>
+                <li class="separator" style="color:black;"><strong>Entrenamiento</strong></li>
+                <div class="horizontal grid">
+                    <div class="box_0">
+                        <ul>
+                            <li>Objetivo:</li>
+                            <li>Seguimiento:</li>
+                            <li>Planificado:</li>
+                        </ul>
+                    </div>
+                    <div class="box_0">
+                        <ul>
+                            <li>Quemar grasa</li>
+                            <li>10 días</li>
+                            <li>30 días</li>
+                        </ul>
+                    </div>
+                </div>
+                <li class="separator" style="color:black;"><strong>Recomendación de hoy</strong></li>
+                <li>Día de descanso</li>
+            </ul>
+        </div>
+        </section>
+
+        <section id="objetivos" class="indented" data-animation="slide">
+             <form>
+                <fieldset>
+                    <legend>Modifica tus objetivos</legend>
+                    <label for="input">Peso actual:</label><input type="number" id="input" value="85">
+                    <label for="line">Peso objetivo:</label><input type="number" id="input" value="80">
+                    <label for="line">Variación semanal:</label>
+                    <label class="select">
+                        <select name="" id="select_box">
+                            <option value="elem4">Perder 1kg</option>
+                            <option value="elem3">Perder 0.5kg</option>
+                            <option value="elem2">Mantener peso</option>
+                            <option value="elem1">Ganar 1kg</option>
+                        </select>
+                    </label>
+                    <label for="line">Nivel de actividad:</label>
+                    <label class="select">
+                        <select name="" id="select_box">
+                            <option value="elem1">Sedentario</option>
+                            <option value="elem2">Algo activo</option>
+                            <option value="elem3">Activo</option>
+                            <option value="elem4">Muy activo</option>
+                        </select>
+                    </label>
+                    <button class="wide accept" onClick="Tako.Notification.success('ok', 'Éxito','Se han actualizado tus objetivos. Consulta los nuevos objetivos nutricionales recomendados', null, function(){console.log('SUCCESS CB');});">Actualizar objetivos</button>
+                </fieldset>
+            </form>
+            <br></br>
+             <ul>
+                <li class="separator" style="color:black;"><strong>Objetivos nutricionales recomendados</strong></li>
+                <div class="horizontal grid">
+                    <div class="box_0">
+                        <ul>
+                            <li>Energía recomendada:</li>
+                            <li>Hidratos de carbono:</li>
+                            <li>Proteínas:</li>
+                            <li>Grasas:</li>
+                        </ul>
+                    </div>
+                    <div class="box_0">
+                        <ul>
+                            <li>2000 kcal</li>
+                            <li>245g</li>
+                            <li>98g</li>
+                            <li>65g</li>
+                        </ul>
+                    </div>
+                </div>
+            </ul>
+        </section>
+
+        <section id="entrenamientos" class="indented" data-animation="slide">
+            <div>por hacer</div>
+        </section>
+
+        <section id="nutricion" class="indented" data-animation="slide">
+            <div>por hacer</div>
+        </section>
+
+        <section id="preferencias" class="indented" data-animation="slide">
+
+            <form>
+                <fieldset>
+                    <legend>Datos personales</legend>
+                    <label>E-mail</label><input type="email" id="input" value="pepe@internet.com">
+                    <label>Nombre de usuario</label><input type="text" id="input" value="pepe">
+                    <label>Ayudas en la página</label>
+                        <label class="select">
+                            <select name="" id="select_box">
+                                <option value="elem1">Alto</option>
+                                <option value="elem2">Bajo</option>
+                            </select>
+                        </label>
+                    <button class="wide accept" onClick="Tako.Notification.error('deny', 'Error','No se pudo actualizar la información de tu perfil, comprueba tu conexión a internet o inténtalo más tarde', null, function(){console.log('ERROR CB');})">Actualizar datos</button>
+                </fieldset>
+
+                <br>
+
+                <fieldset>
+                    <legend>Unidades de medida</legend>
+
+                    <label>Energía</label>
+                    <label class="select">
+                        <select name="" id="select_box">
+                            <option value="elem1">kcal</option>
+                            <option value="elem2">kJ</option>
+                        </select>
+                    </label>
+                    <label>Peso</label>
+                    <label class="select">
+                        <select name="" id="select_box">
+                            <option value="elem1">kg</option>
+                            <option value="elem2">libra</option>
+                        </select>
+                    </label>
+                    <label>Peso (comidas)</label>
+                    <label class="select">
+                        <select name="" id="select_box">
+                            <option value="elem1">g</option>
+                            <option value="elem2">kg</option>
+                            <option value="elem3">libra</option>
+                        </select>
+                    </label>
+                    <label>Volumen</label>
+                    <label class="select">
+                        <select name="" id="select_box">
+                            <option value="elem1">l</option>
+                            <option value="elem2">cl</option>
+                            <option value="elem3">ml</option>
+                        </select>
+                    </label>
+                    <button class="wide accept" onClick="Tako.Notification.success('ok', 'Éxito','Se han actualizado tus unidades de medida', null, function(){console.log('SUCCESS CB');});">Actualizar unidades</button>
+                </fieldset>
+
+                <br>
+
+                <fieldset>
+                    <legend>Desconectar sesión</legend>
+                    <label>Cierra tu sesión en este dispositivo</label>
+                    <button class="wide accept" onClick="cerrar();">Cerrar sesión</button>
+                    <script type="text/javascript">
+                        function cerrar()
+                        {
+                            Tako.Notification.confirm("help-circled", "Cerrar sesión", "¿Seguro que quieres cerrar sesión?", "Cerrar sesión", "Cancelar", function(result){
+                                if(result){
+                                    redireccionar('index.html');
+                                }
+                            });
+                        }
+
+                        function redireccionar(pagina) 
+                        {
+                        location.href=pagina
+                        } 
+                    </script>
+
+                </fieldset>
+            </form>
+        </section>
+    </article>
+
+     <article id="evolucion" data-animation="slide" class="">
+        <header>
+            <nav class="left">
+                <button class="button icon menu" data-action="aside"></button>
+            </nav>
+            <h1>Make Yourself Strong</h1>
+        </header>
+
+        <nav>
+                <button data-section="peso-graf">Peso</button>
+                <button data-section="entrenamientos-graf">Entrenamientos</button>
+        </nav>
+
+        <section id="evolucion-princ" class="centered">
+           <p class="align-center"><strong>En esta sección puedes consultar tu progreso <br> Selecciona una de las pestañas</strong></p>
+        </section>
+
+        <section id="peso-graf" class="align-center">
+                <nav>
+                    <button>1 mes</button>
+                    <button>2 meses</button>
+                    <button>3 meses</button>
+                    <button>6 meses</button>
+                </nav>
+            <div id="grafc-peso" style="height:300px;">
+
+            </div>
+        </section>
+
+        <section id="entrenamientos-graf" class="align-center">
+                <nav>
+                    <button>1 mes</button>
+                    <button>2 meses</button>
+                    <button>3 meses</button>
+                    <button>6 meses</button>
+                </nav>
+        </section>
+    </article>
+
+    <article id="mensajes" data-animation="slide" class="">
+        <header>
+            <nav class="left">
+                <button class="button icon menu" data-action="aside"></button>
+            </nav>
+            <h1>Make Yourself Strong</h1>
+        </header>
+
+        <nav>
+                <button data-section="recibidos">Recibidos</button>
+                <button data-section="enviados">Enviados</button>
+        </nav>
+
+        <section id="recibidos">
+            <div>
+                <ul>
+                    <li data-section="correo" class="icon eye-off"><strong>Aitor</strong><small>RE: Lorem ipsum</small></li>
+                    <li data-section="correo" class="icon eye-off"><strong>Aitor</strong><small>RE: Lorem ipsum</small></li>
+                    <li data-section="correo" class="icon eye"><strong>Aitor</strong><small>RE: Lorem ipsum</small></li>
+                    <li data-section="correo" class="icon eye"><strong>Aitor</strong><small>RE: Lorem ipsum</small></li>
+                    <li data-section="correo" class="icon eye"><strong>Aitor</strong><small>RE: Lorem ipsum</small></li>
+                    <li data-section="correo" class="icon eye"><strong>Aitor</strong><small>RE: Lorem ipsum</small></li>
+                    <li data-section="correo" class="icon eye"><strong>Aitor</strong><small>RE: Lorem ipsum</small></li>
+                    <li data-section="correo" class="icon eye"><strong>Aitor</strong><small>RE: Lorem ipsum</small></li>
+                </ul>  
+            </div> 
+        </section>
+
+        <section id="enviados">
+            <div>
+                <ul>
+                    <li data-section="correo-env" class="icon eye"><strong>Pepe</strong><small>Lorem ipsum</small></li>
+                    <li data-section="correo-env" class="icon eye"><strong>Pepe</strong><small>Lorem ipsum</small></li>
+                    <li data-section="correo-env" class="icon eye"><strong>Pepe</strong><small>Lorem ipsum</small></li>
+                    <li data-section="correo-env" class="icon eye"><strong>Pepe</strong><small>Lorem ipsum</small></li>
+                    <li data-section="correo-env" class="icon eye"><strong>Pepe</strong><small>Lorem ipsum</small></li>
+                    <li data-section="correo-env" class="icon eye"><strong>Pepe</strong><small>Lorem ipsum</small></li>
+                    <li data-section="correo-env" class="icon eye"><strong>Pepe</strong><small>Lorem ipsum</small></li>
+                    <li data-section="correo-env" class="icon eye"><strong>Pepe</strong><small>Lorem ipsum</small></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="correo" class="indented">
+            <ul>
+                <li class="separator" style="color:black;"></li>
+                <li>De: Aitor "aitor@makestrong.com"</li>
+                <li>Para: pepe "pepe@internet.com"</li>
+                <li><strong>RE: Lorem ipsum</strong></li>
+                <li class="separator" style="color:black;"></li>
+                <li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae lorem dictum, laoreet ligula eu, ullamcorper ante. Vivamus felis neque, aliquet condimentum enim et, hendrerit sollicitudin dolor. Suspendisse eleifend massa ac pellentesque pharetra. Nunc dui eros, interdum vitae justo fringilla, egestas fringilla ante. Nam pharetra pharetra dolor nec mattis. Sed malesuada nisi a tortor venenatis, nec scelerisque nisl sagittis. Integer varius eu ex consequat fringilla. Vestibulum sit amet nibh elit.</p><p>Suspendisse eu mi ante. Vivamus pulvinar tellus non nibh scelerisque fringilla. In at turpis maximus, blandit massa id, bibendum orci. Nullam cursus velit dolor, quis tristique nisi cursus ac. Phasellus sit amet augue id metus malesuada gravida. Nullam</p></li>
+            </ul>
+        </section>
+        <section id="correo-env" class="indented">
+            <ul>
+                <li class="separator" style="color:black;"></li>
+                <li>De: pepe "pepe@internet.com"</li>
+                <li>Para: Aitor "aitor@makestrong.com"</li>
+                <li><strong>Lorem ipsum</strong></li>
+                <li class="separator" style="color:black;"></li>
+                <li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae lorem dictum, laoreet ligula eu, ullamcorper ante. Vivamus felis neque, aliquet condimentum enim et, hendrerit sollicitudin dolor. Suspendisse eleifend massa ac pellentesque pharetra. Nunc dui eros, interdum vitae justo fringilla, egestas fringilla ante. Nam pharetra pharetra dolor nec mattis. Sed malesuada nisi a tortor venenatis, nec scelerisque nisl sagittis. Integer varius eu ex consequat fringilla. Vestibulum sit amet nibh elit.</p><p>Suspendisse eu mi ante. Vivamus pulvinar tellus non nibh scelerisque fringilla. In at turpis maximus, blandit massa id, bibendum orci. Nullam cursus velit dolor, quis tristique nisi cursus ac. Phasellus sit amet augue id metus malesuada gravida. Nullam</p></li>
+            </ul>
+        </section>
+    </article>
+
+    <script type="text/javascript" src="flotr2.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+
+        var 
+          container = document.getElementById('grafc-peso'),
+
+        d1 = [
+        [7-10, 86],
+        [14-10, 84],
+        [21-10, 83],
+        [28-10, 85] ],
+
+        graph;
+
+        // Draw Graph
+        graph = Flotr.draw(container, [d1], {
+        xaxis: {
+            minorTickFreq: 4
+        },
+        grid: {
+            minorVerticalLines: true
+        }
+    });
+
+      })();
+
+       (function () {
+
+        var 
+          container = document.getElementById('grafc-entren'),
+          start = (new Date).getTime(),
+          data, graph, offset, i;
+
+      })();
+
+    </script>
+
+    <script src="js/tako.components.js"></script>
+    <script src="js/tako.debug.js"></script>
+    <script>
+        Tako.onReady(function(){
+            console.log("READY");
+            window.puller = Tako.Pull_Refresh("principal", {onRefresh:function(){
+                setTimeout(function(){
+                    //alert("Refresh finished");
+                    puller.hide()}, 3000);
+            }});
+            window.puller2 = Tako.Pull_Refresh("recibidos", {onRefresh:function(){
+                setTimeout(function(){
+                    //alert("Refresh finished");
+                    puller2.hide()}, 3000);
+            }});
+            window.puller3 = Tako.Pull_Refresh("enviados", {onRefresh:function(){
+                setTimeout(function(){
+                    //alert("Refresh finished");
+                    puller3.hide()}, 3000);
+            }});
+            $("#forms").on("load", function(){console.log("FORMS LOADED")});
+            $("#buttons").on("load", function(){console.log("BUTTONS LOADED")});
+            $("#forms").on("unload", function(){console.log("FORMS UNLOADED")});
+
+            $("[data-back]").on("click", function(){
+                Tako.Article("article_1", true);
+            });
+            // Tako.Section("notifications");
+            // Tako.Section("buttons");
+            // Tako.Section("colors");
+        });
+
+        Tako.init({
+            logging      : Tako.logging.LOG,
+            urlNavigation: true
+        });
+        $("#show_success").bind("tap", function(){
+            Tako.Notification.success("ok", "Success!!","Everything worked fine", null, function(){console.log("SUCCESS CB");})
+        });
+        $("#show_error").bind("tap", function(){
+            Tako.Notification.error("deny", "Error!!","Something went wrong", null, function(){console.log("ERROR CB");})
+        });
+        $("#show_confirm").bind("tap", function(){
+            Tako.Notification.confirm("help-circled", "Question", "Do you like TaKos", "Of course", "Not much", function(result){
+                if(result){
+                    alert("I know you like them!!");
+                    console.log("I know you like them!!");
+                }else{
+                    alert("Well, I hope at least you like our TaKo");
+                    console.log("Well, I hope at least you like our TaKo");
+                }
+            })
+        });
+        $("#show_custom").bind("tap", function(){
+            Tako.Notification.custom("Custom", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tempus auctor convallis. Aliquam eget ipsum a velit pulvinar elementum vitae non dolor. Nullam dui metus, tincidunt non dolor eu, laoreet auctor tellus. Suspendisse vestibulum scelerisque nibh non scelerisque. Cras eget lobortis orci. Vestibulum ultrices enim mattis fermentum tristique. Nunc ultricies feugiat tellus, ut facilisis est dignissim nec. Vivamus molestie sem vel euismod vestibulum.", true, "", null, function(){console.log("Fin de custom")});
+        });
+        $("#show_loading").bind("tap", function(){
+            Tako.Notification.loading("Loading", 5, function(){console.log("LOADING CB");})
+        });
+        $("#show_progress").bind("tap", function(){
+            var progress = Tako.Notification.progress("spin1 animated", "Downloading", "Please wait until your download is completed");
+            setTimeout(function(){progress.percent(20)},1000);
+            setTimeout(function(){progress.percent(60)},2500);
+            setTimeout(function(){progress.percent(100)},4500);
+        });
+        window.logger = function(){
+            console.log.apply(console, arguments)
+        };
+    </script>
+    <!-- <script src="http://192.168.2.110:8080/target/target-script-min.js"></script> -->
+</body>
+</html>
