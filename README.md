@@ -1,4 +1,4 @@
 MakeStrong
 ==========
 
-Proyecto web Make Strong Yourself
+Proyecto de prototipado web Make Strong Yourself
